@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head>
+<title>My Store</title>
+</head>
+<body>
+<nav>
+<a href="{% url 'products:product_list' %}">Products</a>
+</nav>
+<hr>
+{% block content %}{% endblock %}
+</body>
+</html>
