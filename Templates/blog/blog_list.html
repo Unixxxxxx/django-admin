@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog Page</title>
+</head>
+<body>
+    <h1>Blog Posts</h1>
+    {% for blog in blogs %}
+        <h2><a href="{{ blog.id }}/">{{ blog.title }}</a></h2>
+        <p>{{ blog.content|truncatewords:30 }}</p>
+        <small>Published on: {{ blog.created_at }}</small>
+        <hr>
+    {% empty %}
+        <p>No blog posts available.</p>
+    {% endfor %}
+</body>
+</html>
+
