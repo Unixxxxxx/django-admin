@@ -20,5 +20,6 @@ urlpatterns = [
     path("grappelli/", include("grappelli.urls")),
     path('admin/', admin.site.urls),
     path('',include('new.urls')),
+    path('blog/',include('blog.urls')),
 ]
 

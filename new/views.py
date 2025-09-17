@@ -1,7 +1,6 @@
 from django.shortcuts import render 
 from .forms import ContactForm 
 from .models import Contact
-from .models import Blog
 
 # Create your views here.
 
@@ -24,10 +23,3 @@ def contact_view(request):
         form = ContactForm() 
     return render(request, 'contact.html', {"form": form})
 
-def blog_list(request):
-    blogs = Blog.objects.all().order_by('-created_at')
-    return render(request, 'blog/blog_list.html', {'blogs': blogs})
-
-def blog_detail(request, pk):
-    blog = get_object_or_404(Blog, pk=pk)
-    return render(request, 'blog/blog_detail.html', {'blog': blog})
