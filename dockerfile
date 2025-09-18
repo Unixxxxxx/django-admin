@@ -8,6 +8,8 @@ COPY . .
 RUN mkdir -p /app/staticfiles
 RUN python manage.py collectstatic --noinput
 RUN pip install gunicorn
+RUN mkdir -p /home/alpha/new/app/log \
+    && chmod -R 777 /home/alpha/new/app/log
 
 CMD ["gunicorn", "app.wsgi:application", "--bind", "0.0.0.0:8000"]
 
