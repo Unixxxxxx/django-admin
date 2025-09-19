@@ -155,3 +155,34 @@ Not Found: /static/grappelli/stylesheets/screen.css
 Not Found: /static/grappelli/jquery/ui/jquery-ui.min.css
 Not Found: /static/grappelli/stylesheets/mueller/grid/output.css
 Not Found: /static/grappelli/js/grappelli.min.js
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/alpha/new/app/new/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/alpha/new/app/new/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/alpha/new/app/app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1312
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3431
+"GET / HTTP/1.1" 200 1312
+"GET /admin/ HTTP/1.1" 200 9792
+"GET /static/grappelli/jquery/ui/jquery-ui.min.css HTTP/1.1" 200 29614
+"GET /static/grappelli/jquery/jquery-migrate-3.0.1.min.js HTTP/1.1" 200 11421
+"GET /static/grappelli/stylesheets/mueller/grid/output.css HTTP/1.1" 200 36537
+"GET /static/grappelli/jquery/jquery.min.js HTTP/1.1" 200 89501
+"GET /static/grappelli/js/grappelli.min.js HTTP/1.1" 200 27906
+"GET /static/grappelli/stylesheets/screen.css HTTP/1.1" 200 128920
+"GET /static/grappelli/jquery/ui/jquery-ui.min.js HTTP/1.1" 200 255084
+"GET /static/grappelli/jquery/jquery-migrate-3.0.1.min.js HTTP/1.1" 200 11421
+"GET /static/grappelli/jquery/jquery.min.js HTTP/1.1" 200 89501
+"GET /static/grappelli/images/spritesheet-1694777276.png HTTP/1.1" 200 25228
+"GET /admin/ HTTP/1.1" 200 9792
+"GET /static/grappelli/jquery/ui/jquery-ui.min.js HTTP/1.1" 200 255084
+"GET /static/grappelli/js/grappelli.min.js HTTP/1.1" 200 27906
+Not Found: /static/images/contact-bg.jpg
+Not Found: /static/images/contact-bg.jpg
