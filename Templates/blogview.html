@@ -1,0 +1,16 @@
+<input type="text" id="message" placeholder="Type here...">
+<button onclick="sendMessage()">Send</button>
+<div id="chat"></div>
+
+<script>
+function sendMessage() {
+    let msg = document.getElementById("message").value;
+    fetch(`/chatbot/?message=${msg}`)
+    .then(res => res.json())
+    .then(data => {
+        document.getElementById("chat").innerHTML += "<p><b>You:</b> " + msg + "</p>";
+        document.getElementById("chat").innerHTML += "<p><b>Bot:</b> " + data.response + "</p>";
+    });
+}
+</script>
+

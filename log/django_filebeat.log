@@ -186,3 +186,220 @@ Not Found: /favicon.ico
 "GET /static/grappelli/js/grappelli.min.js HTTP/1.1" 200 27906
 Not Found: /static/images/contact-bg.jpg
 Not Found: /static/images/contact-bg.jpg
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1312
+"GET / HTTP/1.1" 200 1312
+"GET /blog HTTP/1.1" 301 0
+"GET /blog/ HTTP/1.1" 200 15
+"GET /blog/ HTTP/1.1" 200 15
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1312
+"GET / HTTP/1.1" 200 1312
+"GET /blog/ HTTP/1.1" 200 15
+"GET /blog/ HTTP/1.1" 200 15
+Not Found: /chatbot/
+"GET /chatbot/?message=hi HTTP/1.1" 404 3433
+Not Found: /chatbot/
+"GET /chatbot/?message=hi HTTP/1.1" 404 3433
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+Not Found: /chatbot
+"GET /chatbot HTTP/1.1" 404 3419
+"GET / HTTP/1.1" 200 1312
+"GET / HTTP/1.1" 200 1312
+"GET /blog/ HTTP/1.1" 200 15
+"GET /blog/ HTTP/1.1" 200 15
+Not Found: /blog/chatboot
+"GET /blog/chatboot HTTP/1.1" 404 3802
+Not Found: /blog/chatboot
+"GET /blog/chatboot HTTP/1.1" 404 3802
+Watching for file changes with StatReloader
+Not Found: /chatbot/
+"GET /chatbot/?message=hi HTTP/1.1" 404 3433
+Not Found: /chatbot/
+"GET /chatbot/?message=hi HTTP/1.1" 404 3433
+Internal Server Error: /blog/chatbot/
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alpha/new/app/blog/views.py", line 18, in chatbot_response
+    reply = response.get(user_message.lower(), "sorry, i dont understand .")
+NameError: name 'response' is not defined
+"GET /blog/chatbot/?message=hi HTTP/1.1" 500 63892
+Internal Server Error: /blog/chatbot/
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alpha/new/app/blog/views.py", line 18, in chatbot_response
+    reply = response.get(user_message.lower(), "sorry, i dont understand .")
+NameError: name 'response' is not defined
+"GET /blog/chatbot/?message=hi HTTP/1.1" 500 63139
+/home/alpha/new/app/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/alpha/new/app/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /blog/chatbot/?message=hi HTTP/1.1" 200 52
+"GET /blog/chatbot/?message=hi HTTP/1.1" 200 52
+"GET /blog/chatbot HTTP/1.1" 301 0
+"GET /blog/chatbot/ HTTP/1.1" 200 52
+"GET /blog/chatbot/ HTTP/1.1" 200 52
+"GET /blog/chatbot/ HTTP/1.1" 200 52
+"GET /blog/chatbot/ HTTP/1.1" 200 52
+"GET /blog/chatbot/ HTTP/1.1" 200 52
+"GET /blog/chatbot/ HTTP/1.1" 200 52
+"GET /blog/chatbot/ HTTP/1.1" 200 52
+"GET /blog/chatbot/ HTTP/1.1" 200 52
+/home/alpha/new/app/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /blog/chatbot/ HTTP/1.1" 200 52
+"GET /blog/chatbot/ HTTP/1.1" 200 52
+"GET /blog/chatbot/ HTTP/1.1" 200 52
+"GET /blog/chatbot/ HTTP/1.1" 200 52
+/home/alpha/new/app/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/alpha/new/app/blog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1312
+"GET / HTTP/1.1" 200 1312
+Internal Server Error: /blog/chatbot/
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view blog.views.chatbot_response didn't return an HttpResponse object. It returned None instead.
+"GET /blog/chatbot/ HTTP/1.1" 500 64995
+Internal Server Error: /blog/chatbot/
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view blog.views.chatbot_response didn't return an HttpResponse object. It returned None instead.
+"GET /blog/chatbot/ HTTP/1.1" 500 64105
+/home/alpha/new/app/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /blog/chatbot/
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view blog.views.chatbot_response didn't return an HttpResponse object. It returned None instead.
+"GET /blog/chatbot/ HTTP/1.1" 500 64995
+Internal Server Error: /blog/chatbot/
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view blog.views.chatbot_response didn't return an HttpResponse object. It returned None instead.
+"GET /blog/chatbot/ HTTP/1.1" 500 64105
+Internal Server Error: /blog/chatbot/
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view blog.views.chatbot_response didn't return an HttpResponse object. It returned None instead.
+"GET /blog/chatbot/ HTTP/1.1" 500 64995
+Internal Server Error: /blog/chatbot/
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view blog.views.chatbot_response didn't return an HttpResponse object. It returned None instead.
+"GET /blog/chatbot/ HTTP/1.1" 500 64105
+Internal Server Error: /blog/chatbot/
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view blog.views.chatbot_response didn't return an HttpResponse object. It returned None instead.
+"GET /blog/chatbot/ HTTP/1.1" 500 64995
+Internal Server Error: /blog/chatbot/
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view blog.views.chatbot_response didn't return an HttpResponse object. It returned None instead.
+"GET /blog/chatbot/ HTTP/1.1" 500 64105
