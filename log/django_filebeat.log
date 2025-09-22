@@ -440,3 +440,4 @@ Watching for file changes with StatReloader
 "GET /static/grappelli/images/icons/form-select.png HTTP/1.1" 304 0
 "GET /static/grappelli/images/backgrounds/changelist-results.png HTTP/1.1" 304 0
 "GET /admin/new/contact/ HTTP/1.1" 200 16160
+Not Found: /favicon.ico
