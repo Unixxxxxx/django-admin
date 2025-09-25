@@ -1,0 +1,8 @@
+<div class="max-w-screen-md mx-auto py-12 px-4">
+    <h1 class="text-4xl font-bold text-blue-600 mb-4">{{ post.title }}</h1>
+    <img src="{{ post.image.url }}" alt="{{ post.title }}" class="w-full h-64 object-cover rounded-lg mb-6">
+    <p class="text-gray-700 text-lg leading-relaxed">{{ post.description }}</p>
+    <p class="mt-6 text-sm text-gray-500">Published on {{ post.created_at|date:"F j, Y" }}</p>
+    <a href="{% url 'blog_list' %}" class="mt-6 inline-block text-blue-600 hover:underline">⬅ Back to Blog</a>
+</div>
+
