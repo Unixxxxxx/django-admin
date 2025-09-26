@@ -817,3 +817,7 @@ Not Found: /media/blog_images/WhatsApp_Image_2025-04-27_at_13.09.03_a48ea000.jpg
 Not Found: /media/blog_images/WhatsApp_Image_2025-04-27_at_13.09.03_a48ea000.jpg
 "GET /media/blog_images/WhatsApp_Image_2025-04-27_at_13.09.03_a48ea000.jpg HTTP/1.1" 404 3602
 "GET /blog/ HTTP/1.1" 200 1131
+Not Found: /favicon.ico
+Not Found: /media/blog_images/WhatsApp_Image_2025-04-27_at_13.09.03_a48ea000.jpg
+Not Found: /media/blog_images/WhatsApp_Image_2025-04-27_at_13.09.03_a48ea000.jpg
+Not Found: /media/blog_images/WhatsApp_Image_2025-04-27_at_13.09.03_a48ea000.jpg
