@@ -821,3 +821,62 @@ Not Found: /favicon.ico
 Not Found: /media/blog_images/WhatsApp_Image_2025-04-27_at_13.09.03_a48ea000.jpg
 Not Found: /media/blog_images/WhatsApp_Image_2025-04-27_at_13.09.03_a48ea000.jpg
 Not Found: /media/blog_images/WhatsApp_Image_2025-04-27_at_13.09.03_a48ea000.jpg
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1312
+"GET / HTTP/1.1" 200 1312
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3431
+"GET /blog HTTP/1.1" 301 0
+"GET /blog/ HTTP/1.1" 200 596
+"GET /blog/ HTTP/1.1" 200 596
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 200 14330
+"GET /static/grappelli/jquery/jquery-migrate-3.0.1.min.js HTTP/1.1" 200 11421
+"GET /static/grappelli/jquery/ui/jquery-ui.min.css HTTP/1.1" 200 29614
+"GET /static/grappelli/stylesheets/mueller/grid/output.css HTTP/1.1" 200 36537
+"GET /static/grappelli/js/grappelli.min.js HTTP/1.1" 200 27906
+"GET /static/grappelli/stylesheets/screen.css HTTP/1.1" 200 128920
+"GET /static/grappelli/jquery/jquery.min.js HTTP/1.1" 200 89501
+"GET /static/grappelli/jquery/ui/jquery-ui.min.js HTTP/1.1" 200 255084
+"GET /static/grappelli/images/spritesheet-1694777276.png HTTP/1.1" 200 25228
+"GET /admin/ HTTP/1.1" 200 14330
+"GET /admin/blog/blogpost/ HTTP/1.1" 200 13225
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 7958
+"GET /static/admin/js/core.js HTTP/1.1" 200 6208
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/actions.js HTTP/1.1" 200 8337
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+"GET /static/grappelli/images/icons/form-select.png HTTP/1.1" 200 289
+"GET /admin/blog/blogpost/ HTTP/1.1" 200 13225
+"GET /admin/blog/blogpost/ HTTP/1.1" 200 13225
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/blog/blogpost/ HTTP/1.1" 200 13225
+"GET /admin/blog/blogpost/add/ HTTP/1.1" 200 15634
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/blog/blogpost/add/ HTTP/1.1" 200 15634
+"POST /admin/blog/blogpost/add/ HTTP/1.1" 302 0
+"GET /admin/blog/blogpost/ HTTP/1.1" 200 16387
+Not Found: /media/blog_images/ss.jpg
+"GET /media/blog_images/ss.jpg HTTP/1.1" 404 3470
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/grappelli/images/backgrounds/changelist-results.png HTTP/1.1" 200 244
+"GET /admin/blog/blogpost/ HTTP/1.1" 200 15980
+"GET / HTTP/1.1" 200 1312
+"GET / HTTP/1.1" 200 1312
+"GET /blog/ HTTP/1.1" 200 1085
+Not Found: /media/blog_images/ss.jpg
+"GET /media/blog_images/ss.jpg HTTP/1.1" 404 3470
+"GET /blog/ HTTP/1.1" 200 1085
+"GET /blog/3/ HTTP/1.1" 200 469
+Not Found: /media/blog_images/ss.jpg
+"GET /media/blog_images/ss.jpg HTTP/1.1" 404 3470
+"GET /blog/3/ HTTP/1.1" 200 469
+"GET /blog/ HTTP/1.1" 200 1085
+Not Found: /media/blog_images/ss.jpg
+"GET /media/blog_images/ss.jpg HTTP/1.1" 404 3470
+"GET /blog/ HTTP/1.1" 200 1085
