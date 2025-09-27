@@ -880,3 +880,28 @@ Not Found: /media/blog_images/ss.jpg
 Not Found: /media/blog_images/ss.jpg
 "GET /media/blog_images/ss.jpg HTTP/1.1" 404 3470
 "GET /blog/ HTTP/1.1" 200 1085
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1312
+"GET / HTTP/1.1" 200 1312
+"POST / HTTP/1.1" 200 1312
+"GET / HTTP/1.1" 200 1312
+"POST / HTTP/1.1" 200 1312
+"GET / HTTP/1.1" 200 1312
+"POST / HTTP/1.1" 200 1312
+"GET / HTTP/1.1" 200 1312
+"POST / HTTP/1.1" 200 1312
+"GET / HTTP/1.1" 200 1312
+"POST / HTTP/1.1" 200 1312
+"GET / HTTP/1.1" 200 1312
+"POST / HTTP/1.1" 200 1312
+"GET / HTTP/1.1" 200 1312
+"POST / HTTP/1.1" 200 1312
+"GET / HTTP/1.1" 200 1312
+"GET / HTTP/1.1" 200 3919
+"POST / HTTP/1.1" 200 3919
+"GET / HTTP/1.1" 200 3919
+"GET /blog/ HTTP/1.1" 200 1085
+Not Found: /media/blog_images/ss.jpg
+"GET /media/blog_images/ss.jpg HTTP/1.1" 404 3470
+"GET /blog/ HTTP/1.1" 200 1085
+"GET / HTTP/1.1" 200 3919
