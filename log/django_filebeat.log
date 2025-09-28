@@ -958,3 +958,5 @@ Not Found: /media/blog_images/ss.jpg
 "GET /admin/blog/blogpost/ HTTP/1.1" 200 13573
 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
 "GET /admin/blog/blogpost/ HTTP/1.1" 200 13225
+Not Found: /favicon.ico
+Not Found: /static/images/contact-bg.jpg
