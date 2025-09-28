@@ -938,3 +938,23 @@ Not Found: /media/blog_images/ss.jpg
 "GET /media/blog_images/ss.jpg HTTP/1.1" 404 3470
 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
 "GET /admin/blog/blogpost/ HTTP/1.1" 200 16566
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 3919
+"GET / HTTP/1.1" 200 3919
+"GET / HTTP/1.1" 200 3919
+"GET / HTTP/1.1" 200 3919
+"GET /admin/ HTTP/1.1" 200 14392
+"GET /admin/ HTTP/1.1" 200 14392
+"GET /admin/blog/blogpost/ HTTP/1.1" 200 16566
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Not Found: /media/blog_images/ChatGPT_Image_Apr_13_2025_10_14_59_AM.png
+Not Found: /media/blog_images/ss.jpg
+"GET /media/blog_images/ss.jpg HTTP/1.1" 404 3470
+"GET /media/blog_images/ChatGPT_Image_Apr_13_2025_10_14_59_AM.png HTTP/1.1" 404 3575
+"GET /admin/blog/blogpost/ HTTP/1.1" 200 16566
+"POST /admin/blog/blogpost/ HTTP/1.1" 200 8863
+"GET /admin/blog/blogpost/ HTTP/1.1" 200 16566
+"POST /admin/blog/blogpost/ HTTP/1.1" 302 0
+"GET /admin/blog/blogpost/ HTTP/1.1" 200 13573
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/blog/blogpost/ HTTP/1.1" 200 13225
