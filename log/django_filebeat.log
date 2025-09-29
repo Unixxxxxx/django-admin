@@ -2490,3 +2490,106 @@ django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 28: 'e
 "GET /menu/ HTTP/1.1" 500 157721
 "GET /menu/ HTTP/1.1" 200 2962
 "GET /menu/ HTTP/1.1" 200 2962
+Watching for file changes with StatReloader
+Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alpha/new/app/new/views.py", line 14, in menu
+    return render(request, 'menu.html', {})
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'menu' not found. 'menu' is not a valid view function or pattern name.
+"GET /menu/ HTTP/1.1" 500 139067
+Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alpha/new/app/new/views.py", line 14, in menu
+    return render(request, 'menu.html', {})
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'menu' not found. 'menu' is not a valid view function or pattern name.
+"GET /menu/ HTTP/1.1" 500 138177
+/home/alpha/new/app/new/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /menu/ HTTP/1.1" 200 2972
+"GET /menu/ HTTP/1.1" 200 2972
+"GET /home/ HTTP/1.1" 200 2474
+"GET /home/ HTTP/1.1" 200 2474
+"GET /menu/ HTTP/1.1" 200 2972
+"GET /menu/ HTTP/1.1" 200 2972
+"GET /home/ HTTP/1.1" 200 2474
+"GET /home/ HTTP/1.1" 200 2474
+"GET /menu/ HTTP/1.1" 200 2972
+"GET /menu/ HTTP/1.1" 200 2972
+"GET /menu/ HTTP/1.1" 200 2972
+"GET /menu/ HTTP/1.1" 200 2972
+"GET /home/ HTTP/1.1" 200 2474
+"GET /home/ HTTP/1.1" 200 2474
+"GET /menu/ HTTP/1.1" 200 2972
+"GET /menu/ HTTP/1.1" 200 2972
