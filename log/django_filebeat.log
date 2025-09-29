@@ -960,3 +960,4 @@ Not Found: /media/blog_images/ss.jpg
 "GET /admin/blog/blogpost/ HTTP/1.1" 200 13225
 Not Found: /favicon.ico
 Not Found: /static/images/contact-bg.jpg
+Watching for file changes with StatReloader
