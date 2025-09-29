@@ -1,42 +1,47 @@
-{% extends 'base1.html'%}
-{ % block menu %}
+{% extends 'base1.html' %}
+
+{% block menu %}
 <!-- Menu Section -->
-  <section class="max-w-6xl mx-auto py-12 px-6">
-    <h2 class="text-2xl font-bold text-gray-800 text-center mb-8">Our Cake Varieties</h2>
+<section class="max-w-6xl mx-auto py-12 px-6">
+  <h2 class="text-2xl font-bold text-gray-800 text-center mb-8">Our Cake Varieties</h2>
 
-    <div class="grid md:grid-cols-3 gap-8">
-
-      <!-- Cake Card -->
-      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition">
-        <img src="https://images.unsplash.com/photo-1541976076758-347942db1976" alt="Chocolate Cake" class="w-full h-48 object-cover">
-        <div class="p-5">
-          <h3 class="text-lg font-bold text-pink-600">Chocolate Truffle Cake</h3>
-          <p class="text-gray-600 mt-2">Rich chocolate layers with silky ganache.</p>
-          <p class="mt-3 font-semibold text-gray-800">₹550</p>
-        </div>
+  <div class="grid md:grid-cols-3 gap-8">
+    <!-- Cake Card -->
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition-transform">
+      <img src="https://images.unsplash.com/photo-1541976076758-347942db1976" 
+           alt="Chocolate Cake" 
+           class="w-full h-48 object-cover">
+      <div class="p-5">
+        <h3 class="text-lg font-bold text-pink-600">Chocolate Truffle Cake</h3>
+        <p class="text-gray-600 mt-2">Rich chocolate layers with silky ganache.</p>
+        <p class="mt-3 font-semibold text-gray-800">₹550</p>
       </div>
-
-      <!-- Cake Card -->
-      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition">
-        <img src="https://images.unsplash.com/photo-1609751591606-cac86c070c3f" alt="Strawberry Cake" class="w-full h-48 object-cover">
-        <div class="p-5">
-          <h3 class="text-lg font-bold text-pink-600">Strawberry Cream Cake</h3>
-          <p class="text-gray-600 mt-2">Fresh strawberries with soft sponge layers.</p>
-          <p class="mt-3 font-semibold text-gray-800">₹600</p>
-        </div>
-      </div>
-
-      <!-- Cake Card -->
-      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition">
-        <img src="https://images.unsplash.com/photo-1606313564200-e6b6b9ce9a91" alt="Red Velvet Cake" class="w-full h-48 object-cover">
-        <div class="p-5">
-          <h3 class="text-lg font-bold text-pink-600">Red Velvet Cake</h3>
-          <p class="text-gray-600 mt-2">Classic red velvet with cream cheese frosting.</p>
-          <p class="mt-3 font-semibold text-gray-800">₹700</p>
-        </div>
-      </div>
-
     </div>
-  </section>
 
-  {% endblock %}
+    <!-- Cake Card -->
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition-transform">
+      <img src="https://images.unsplash.com/photo-1609751591606-cac86c070c3f" 
+           alt="Strawberry Cake" 
+           class="w-full h-48 object-cover">
+      <div class="p-5">
+        <h3 class="text-lg font-bold text-pink-600">Strawberry Cream Cake</h3>
+        <p class="text-gray-600 mt-2">Fresh strawberries with soft sponge layers.</p>
+        <p class="mt-3 font-semibold text-gray-800">₹600</p>
+      </div>
+    </div>
+
+    <!-- Cake Card -->
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition-transform">
+      <img src="https://images.unsplash.com/photo-1606313564200-e6b6b9ce9a91" 
+           alt="Red Velvet Cake" 
+           class="w-full h-48 object-cover">
+      <div class="p-5">
+        <h3 class="text-lg font-bold text-pink-600">Red Velvet Cake</h3>
+        <p class="text-gray-600 mt-2">Classic red velvet with cream cheese frosting.</p>
+        <p class="mt-3 font-semibold text-gray-800">₹700</p>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
