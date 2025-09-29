@@ -2766,3 +2766,23 @@ django.template.exceptions.TemplateSyntaxError: 'block' tag takes only one argum
 "GET /home/ HTTP/1.1" 200 2487
 Not Found: /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png
 Not Found: /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 2487
+"GET /home/ HTTP/1.1" 200 2487
+"GET /about/ HTTP/1.1" 200 3656
+"GET /about/ HTTP/1.1" 200 3656
+"GET /contact/ HTTP/1.1" 200 2812
+"GET /contact/ HTTP/1.1" 200 2812
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /menu/ HTTP/1.1" 200 2985
+"GET /menu/ HTTP/1.1" 200 2985
+"GET /home/ HTTP/1.1" 200 2487
+"GET /home/ HTTP/1.1" 200 2487
+"GET /about/ HTTP/1.1" 200 3656
+"GET /about/ HTTP/1.1" 200 3656
+"GET /contact/ HTTP/1.1" 200 2812
+"GET /contact/ HTTP/1.1" 200 2812
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /home/ HTTP/1.1" 200 2487
+"GET /home/ HTTP/1.1" 200 2487
