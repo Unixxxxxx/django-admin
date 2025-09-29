@@ -2635,3 +2635,134 @@ Watching for file changes with StatReloader
 "GET /about HTTP/1.1" 301 0
 "GET /about/ HTTP/1.1" 200 1084
 "GET /about/ HTTP/1.1" 200 1084
+"GET /about/ HTTP/1.1" 200 1084
+"GET /about/ HTTP/1.1" 200 1084
+Internal Server Error: /about/
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alpha/new/app/new/views.py", line 17, in about
+    return render(request,'about.html',{})
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader_tags.py", line 222, in do_block
+    raise TemplateSyntaxError("'%s' tag takes only one argument" % bits[0])
+django.template.exceptions.TemplateSyntaxError: 'block' tag takes only one argument
+"GET /about/ HTTP/1.1" 500 159798
+Internal Server Error: /about/
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alpha/new/app/new/views.py", line 17, in about
+    return render(request,'about.html',{})
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader_tags.py", line 222, in do_block
+    raise TemplateSyntaxError("'%s' tag takes only one argument" % bits[0])
+django.template.exceptions.TemplateSyntaxError: 'block' tag takes only one argument
+"GET /about/ HTTP/1.1" 500 158908
+"GET /about/ HTTP/1.1" 200 3656
+"GET /about/ HTTP/1.1" 200 3656
+"GET /home/ HTTP/1.1" 200 2487
+"GET /home/ HTTP/1.1" 200 2487
+"GET /menu/ HTTP/1.1" 200 2985
+"GET /menu/ HTTP/1.1" 200 2985
+"GET /menu/ HTTP/1.1" 200 2985
+"GET /menu/ HTTP/1.1" 200 2985
+"GET /contact/ HTTP/1.1" 200 2812
+"GET /contact/ HTTP/1.1" 200 2812
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /home/ HTTP/1.1" 200 2487
+"GET /home/ HTTP/1.1" 200 2487
+"GET /menu/ HTTP/1.1" 200 2985
+"GET /menu/ HTTP/1.1" 200 2985
+"GET /menu/ HTTP/1.1" 200 2985
+"GET /menu/ HTTP/1.1" 200 2985
+"GET /contact/ HTTP/1.1" 200 2812
+"GET /contact/ HTTP/1.1" 200 2812
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /home/ HTTP/1.1" 200 2487
+"GET /home/ HTTP/1.1" 200 2487
+"GET /menu/ HTTP/1.1" 200 2985
+"GET /menu/ HTTP/1.1" 200 2985
+"GET /menu/ HTTP/1.1" 200 2985
+"GET /menu/ HTTP/1.1" 200 2985
+"GET /contact/ HTTP/1.1" 200 2812
+"GET /contact/ HTTP/1.1" 200 2812
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /home/ HTTP/1.1" 200 2487
+"GET /home/ HTTP/1.1" 200 2487
+Not Found: /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png
+Not Found: /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png
