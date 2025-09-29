@@ -1,0 +1,63 @@
+{% extends 'base1.html' %}
+
+{% block about %}
+<!-- About Section -->
+<section class="max-w-6xl mx-auto py-16 px-6">
+  <div class="grid md:grid-cols-2 gap-12 items-center">
+    
+    <!-- Image -->
+    <div>
+      <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" 
+           alt="Bakery Kitchen" 
+           class="rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300">
+    </div>
+
+    <!-- Text -->
+    <div>
+      <h2 class="text-3xl md:text-4xl font-bold text-pink-600 mb-6">About Cake Haven</h2>
+      <p class="text-gray-700 leading-relaxed mb-4">
+        At <span class="font-semibold text-pink-600">Cake Haven</span>, we believe every celebration deserves something sweet. 
+        Our bakery is more than just cakes—it’s about spreading joy, love, and togetherness.
+      </p>
+      <p class="text-gray-700 leading-relaxed mb-6">
+        From rich <span class="font-medium">chocolate truffles</span> to fluffy <span class="font-medium">strawberry delights</span>, 
+        every treat is baked fresh daily with the finest ingredients. Our mission is simple:
+        make life a little sweeter, one slice at a time.
+      </p>
+
+      <a href="{% url 'menu' %}" 
+         class="inline-block bg-pink-600 text-white font-semibold px-6 py-3 rounded-full shadow-md hover:bg-pink-700 transition">
+         Explore Our Menu
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Our Values -->
+<section class="bg-pink-50 py-16">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h3 class="text-2xl font-bold text-gray-800 mb-10">Why Choose Us?</h3>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <!-- Card 1 -->
+      <div class="bg-white rounded-2xl shadow-lg p-6 hover:scale-105 transition-transform">
+        <h4 class="text-lg font-bold text-pink-600 mb-3">Fresh Ingredients</h4>
+        <p class="text-gray-600">We use only the best quality ingredients to ensure every bite is perfect.</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white rounded-2xl shadow-lg p-6 hover:scale-105 transition-transform">
+        <h4 class="text-lg font-bold text-pink-600 mb-3">Baked with Love</h4>
+        <p class="text-gray-600">Each cake is crafted by passionate bakers who care about every detail.</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white rounded-2xl shadow-lg p-6 hover:scale-105 transition-transform">
+        <h4 class="text-lg font-bold text-pink-600 mb-3">Custom Creations</h4>
+        <p class="text-gray-600">From birthdays to weddings, we create personalized cakes for every occasion.</p>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
