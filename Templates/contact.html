@@ -1,43 +1,41 @@
 {% extends 'base1.html' %}
+
 {% block contact %}
-  <title>Contact Form</title>
+<div class="flex items-center justify-center min-h-[70vh]">
 
-<body class="bg-cover bg-center min-h-screen flex items-center justify-center" 
-      style="background-image: url('/static/images/contact-bg.jpg');">
-      <!-- Replace with your image path -->
+  <!-- Contact Form -->
+  <div class="w-full max-w-lg bg-white bg-opacity-90 p-8 rounded-2xl shadow-lg relative"
+       style="background-image: url('/static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png'); background-size: cover; background-position: center;">
 
-  <div class="bg-white/95 backdrop-blur-md p-8 rounded-2xl shadow-xl w-full max-w-md">
-    <!-- Title -->
-    <h2 class="text-3xl font-extrabold text-center text-indigo-700 mb-2">Contact Us</h2>
-    <p class="text-center text-gray-500 mb-6">We’d love to hear from you!</p>
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-white bg-opacity-80 rounded-2xl"></div>
 
-    <!-- Contact Form -->
-    <form method="post" class="space-y-5">
-      {% csrf_token %}
+    <!-- Form Content -->
+    <div class="relative z-10">
+      <h2 class="text-2xl font-bold text-center text-pink-600 mb-6">We’d love to hear from you!</h2>
 
-      <!-- Name -->
-      <div>
-        <label for="{{ form.name.id_for_label }}" class="block text-gray-700 font-medium mb-1">Name</label>
-        {{ form.name.as_widget|safe }}
-      </div>
+      <form action="#" method="POST" class="space-y-4">
+        <div>
+          <label class="block text-gray-700 font-semibold mb-1">Name</label>
+          <input type="text" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-pink-400 outline-none">
+        </div>
 
-      <!-- Email -->
-      <div>
-        <label for="{{ form.email.id_for_label }}" class="block text-gray-700 font-medium mb-1">Email</label>
-        {{ form.email.as_widget|safe }}
-      </div>
+        <div>
+          <label class="block text-gray-700 font-semibold mb-1">Email</label>
+          <input type="email" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-pink-400 outline-none">
+        </div>
 
-      <!-- Message -->
-      <div>
-        <label for="{{ form.message.id_for_label }}" class="block text-gray-700 font-medium mb-1">Message</label>
-        {{ form.message.as_widget|safe }}
-      </div>
+        <div>
+          <label class="block text-gray-700 font-semibold mb-1">Message</label>
+          <textarea class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-pink-400 outline-none"></textarea>
+        </div>
 
-      <!-- Submit Button -->
-      <button type="submit"
-        class="w-full bg-indigo-600 text-white py-2 rounded-lg font-medium shadow-md hover:bg-indigo-700 hover:shadow-lg transform hover:scale-105 transition duration-200 ease-in-out">
-        Send Message
-      </button>
-    </form>
+        <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 rounded-lg shadow-md transition">
+          Send Message
+        </button>
+      </form>
+    </div>
   </div>
+</div>
 {% endblock %}
+
