@@ -961,3 +961,30 @@ Not Found: /media/blog_images/ss.jpg
 Not Found: /favicon.ico
 Not Found: /static/images/contact-bg.jpg
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 3919
+"GET / HTTP/1.1" 200 3919
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3431
+"GET /blog/ HTTP/1.1" 200 596
+"GET /blog/ HTTP/1.1" 200 596
+"GET /blog/ HTTP/1.1" 200 596
+"GET /blog/ HTTP/1.1" 200 596
+"GET /blog/ HTTP/1.1" 200 596
+"GET /blog/ HTTP/1.1" 200 596
+"GET /blog/ HTTP/1.1" 200 596
+"GET /blog/ HTTP/1.1" 200 596
+"GET /blog/ HTTP/1.1" 200 596
+"GET /blog/ HTTP/1.1" 200 596
+"GET /blog/ HTTP/1.1" 200 596
+"GET /blog/ HTTP/1.1" 200 596
+"GET /blog/ HTTP/1.1" 200 596
+"GET /blog/ HTTP/1.1" 200 596
+"GET /contact HTTP/1.1" 301 0
+"GET /contact/ HTTP/1.1" 200 957
+"GET /contact/ HTTP/1.1" 200 957
+"GET /contact/ HTTP/1.1" 200 957
+"GET /contact/ HTTP/1.1" 200 957
+"GET /contact/ HTTP/1.1" 200 2618
+"GET /contact/ HTTP/1.1" 200 2618
+"GET /static/images/contact-bg.jpg HTTP/1.1" 404 1990
