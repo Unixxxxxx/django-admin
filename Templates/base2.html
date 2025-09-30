@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cake Haven</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Animation for fade-in */
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .fade-in-up {
+      animation: fadeInUp 1.2s ease-out forwards;
+    }
+
+    /* Typing effect */
+    .typing {
+      border-right: 3px solid #fff;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: typing 4s steps(30, end), blink 0.75s step-end infinite;
+    }
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+  </style>
+</head>
+<body class="h-screen w-screen font-sans scroll-smooth">
+
+  <!-- Background -->
+  <div class="relative h-screen w-screen bg-cover bg-center" 
+       style="background-image: url('your-background.jpg');">
+
+    <!-- Gradient Overlay -->
+    <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-black/80"></div>
+
+    <!-- Navbar -->
+    <nav class="absolute top-0 left-0 w-full flex justify-between items-center px-10 py-5 z-20 
+                bg-white/10 backdrop-blur-lg border-b border-white/20">
+      <!-- Logo -->
+      <div class="flex items-center space-x-2">
+        <img src="your-logo.png" alt="Logo" class="w-12 h-12 rounded-full">
+        <span class="text-white font-bold text-xl">Cake Haven</span>
+      </div>
+      
+      <!-- Menu -->
+      <div class="hidden md:flex space-x-8 text-white font-medium text-lg">
+        <a href="#home" class="hover:text-pink-400">Home</a>
+        <a href="#menu" class="hover:text-pink-400">Menu</a>
+        <a href="#blog" class="hover:text-pink-400">Blog</a>
+        <a href="#about" class="hover:text-pink-400">About</a>
+        <a href="#contact" class="hover:text-pink-400">Contact</a>
+        <a href="#signin" class="border border-white px-4 py-1 hover:bg-white hover:text-black transition">SIGN IN</a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div id="home" class="relative z-10 flex flex-col items-start justify-center h-full px-12 text-white max-w-3xl">
+      <h1 class="text-5xl md:text-7xl font-extrabold leading-tight fade-in-up">
+        Your Journey to <span class="text-pink-400">Cake Mastery</span>
+      </h1>
+      <p class="mt-4 text-2xl text-gray-200 typing">Starts Now 🍰</p>
+      <p class="mt-6 text-lg md:text-xl text-gray-300 fade-in-up">
+        Whether you’re a beginner or a pro, Cake Haven is the sweetest place to upgrade your baking skills.
+      </p>
+
+      <!-- CTA Buttons -->
+      <div class="mt-8 flex space-x-6 fade-in-up">
+        <a href="#menu" class="px-6 py-3 bg-pink-500 hover:bg-pink-600 rounded-full text-white font-semibold shadow-lg transition">
+          Explore Menu
+        </a>
+        <a href="#contact" class="px-6 py-3 bg-transparent border border-white rounded-full text-white font-semibold hover:bg-white hover:text-black transition">
+          Contact Us
+        </a>
+      </div>
+    </div>
+
+    <!-- Scroll Down Icon -->
+    <div class="absolute bottom-6 w-full flex justify-center z-10">
+      <a href="#menu" class="text-white animate-bounce">⬇</a>
+    </div>
+  </div>
+
+  <!-- Dummy Sections -->
+  <section id="menu" class="h-screen bg-pink-50 flex items-center justify-center">
+    <h2 class="text-4xl font-bold text-pink-600">🍩 Our Delicious Menu</h2>
+  </section>
+
+  <section id="contact" class="h-screen bg-gray-900 flex items-center justify-center">
+    <h2 class="text-4xl font-bold text-white">📞 Contact Us</h2>
+  </section>
+</body>
+</html>
+

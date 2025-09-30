@@ -1,13 +1,48 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>My Store</title>
+  <meta charset="UTF-8">
+  <title>Cake Haven</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-<nav>
-<a href="{% url 'products:product_list' %}">Products</a>
-</nav>
-<hr>
-{% block content %}{% endblock %}
+<body class="h-screen w-screen">
+
+  <!-- Background -->
+  <div class="relative h-screen w-screen bg-cover bg-center" 
+       style="background-image: url('your-background.jpg');">
+
+    <!-- Overlay for dark effect -->
+    <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+
+    <!-- Navbar -->
+    <nav class="absolute top-0 left-0 w-full flex justify-between items-center px-8 py-4 z-20">
+      <!-- Logo -->
+      <div class="flex items-center space-x-2">
+        <img src="your-logo.png" alt="Logo" class="w-12 h-12">
+      </div>
+      
+      <!-- Menu -->
+      <div class="flex space-x-8 text-white font-semibold text-lg">
+        <a href="#" class="hover:text-pink-400">Home</a>
+        <a href="#" class="hover:text-pink-400">Menu</a>
+        <a href="#" class="hover:text-pink-400">Blog</a>
+        <a href="#" class="hover:text-pink-400">About</a>
+        <a href="#" class="hover:text-pink-400">Contact</a>
+        <a href="#" class="border border-white px-4 py-1 hover:bg-white hover:text-black transition">SIGN IN</a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="relative z-10 flex flex-col items-start justify-center h-full px-12 text-white max-w-3xl">
+      <h1 class="text-5xl md:text-7xl font-extrabold leading-tight">
+        Your Journey to <span class="text-pink-400">Cake Mastery</span> Starts Now
+      </h1>
+      <p class="mt-6 text-lg md:text-xl text-gray-200">
+        Whether you’re a complete beginner or want to level up your baking career – 
+        you’ve landed at the right place to upgrade your cake skills.
+      </p>
+    </div>
+  </div>
 </body>
 </html>
+
