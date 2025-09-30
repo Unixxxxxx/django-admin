@@ -3266,3 +3266,11 @@ Not Found: /your-background.jpg
 "GET /menu HTTP/1.1" 301 0
 "GET /menu/ HTTP/1.1" 200 2313
 "GET /menu/ HTTP/1.1" 200 2313
+Not Found: /your-logo.png
+Not Found: /your-logo.png
+Not Found: /your-background.jpg
+Not Found: /your-logo.png
+Not Found: /your-background.jpg
+Not Found: /your-logo.png
+Not Found: /your-background.jpg
+Not Found: /favicon.ico
