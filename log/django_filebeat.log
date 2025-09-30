@@ -3250,3 +3250,19 @@ Not Found: /your-logo.png
 "GET / HTTP/1.1" 200 3688
 Not Found: /your-background.jpg
 "GET /your-background.jpg HTTP/1.1" 404 3959
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 6288
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 3941
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 3959
+"GET / HTTP/1.1" 200 6288
+"GET / HTTP/1.1" 200 6288
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 3941
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 3959
+"GET / HTTP/1.1" 200 6288
+"GET /menu HTTP/1.1" 301 0
+"GET /menu/ HTTP/1.1" 200 2313
+"GET /menu/ HTTP/1.1" 200 2313
