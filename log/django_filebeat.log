@@ -3274,3 +3274,12 @@ Not Found: /your-background.jpg
 Not Found: /your-logo.png
 Not Found: /your-background.jpg
 Not Found: /favicon.ico
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 6288
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 3941
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 3959
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3935
+"GET / HTTP/1.1" 200 6288
