@@ -3283,3 +3283,235 @@ Not Found: /your-background.jpg
 Not Found: /favicon.ico
 "GET /favicon.ico HTTP/1.1" 404 3935
 "GET / HTTP/1.1" 200 6288
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 6288
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 3941
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 3959
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3935
+"GET / HTTP/1.1" 200 6288
+Watching for file changes with StatReloader
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4046
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 6288
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 3941
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 3959
+"GET /home/ HTTP/1.1" 200 3095
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3935
+"GET /home/ HTTP/1.1" 200 3095
+"GET /home/ HTTP/1.1" 200 2313
+"GET /home/ HTTP/1.1" 200 2313
+"GET /home/ HTTP/1.1" 200 2313
+"GET /home/ HTTP/1.1" 200 2313
+"GET /home/ HTTP/1.1" 200 2313
+"GET /home/ HTTP/1.1" 200 2313
+"GET /home/ HTTP/1.1" 200 2313
+"GET /home/ HTTP/1.1" 200 2313
+"GET /home/ HTTP/1.1" 200 2313
+"GET /home/ HTTP/1.1" 200 2313
+"GET /home/ HTTP/1.1" 200 2313
+"GET /home/ HTTP/1.1" 200 2313
+"GET / HTTP/1.1" 200 6288
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 3941
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 3959
+"GET / HTTP/1.1" 200 6288
+"GET /menu/ HTTP/1.1" 200 6288
+Not Found: /menu/your-logo.png
+"GET /menu/your-logo.png HTTP/1.1" 404 3956
+Not Found: /menu/your-background.jpg
+"GET /menu/your-background.jpg HTTP/1.1" 404 3974
+"GET /menu/ HTTP/1.1" 200 6288
+"GET /menu/ HTTP/1.1" 200 6288
+Not Found: /menu/your-logo.png
+"GET /menu/your-logo.png HTTP/1.1" 404 3956
+Not Found: /menu/your-background.jpg
+"GET /menu/your-background.jpg HTTP/1.1" 404 3974
+"GET /menu/ HTTP/1.1" 200 6288
+"GET /home/ HTTP/1.1" 200 2313
+"GET /home/ HTTP/1.1" 200 2313
+"GET /home/ HTTP/1.1" 200 2313
+"GET /home/ HTTP/1.1" 200 2313
+"GET /home/ HTTP/1.1" 200 2313
+"GET /home/ HTTP/1.1" 200 2313
+"GET /menu/ HTTP/1.1" 200 6288
+Not Found: /menu/your-logo.png
+"GET /menu/your-logo.png HTTP/1.1" 404 3956
+Not Found: /menu/your-background.jpg
+"GET /menu/your-background.jpg HTTP/1.1" 404 3974
+"GET /menu/ HTTP/1.1" 200 6288
+"GET /home/ HTTP/1.1" 200 6288
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 3956
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 3974
+"GET /home/ HTTP/1.1" 200 6288
+"GET /home/ HTTP/1.1" 200 6288
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 3956
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 3974
+"GET /home/ HTTP/1.1" 200 6288
+"GET /menu/ HTTP/1.1" 200 6288
+Not Found: /menu/your-logo.png
+"GET /menu/your-logo.png HTTP/1.1" 404 3956
+Not Found: /menu/your-background.jpg
+"GET /menu/your-background.jpg HTTP/1.1" 404 3974
+"GET /menu/ HTTP/1.1" 200 6288
+"GET /about/ HTTP/1.1" 200 6288
+Not Found: /about/your-logo.png
+"GET /about/your-logo.png HTTP/1.1" 404 3959
+Not Found: /about/your-background.jpg
+"GET /about/your-background.jpg HTTP/1.1" 404 3977
+"GET /about/ HTTP/1.1" 200 6288
+"GET /about/ HTTP/1.1" 200 6291
+Not Found: /about/your-logo.png
+"GET /about/your-logo.png HTTP/1.1" 404 3959
+Not Found: /about/your-background.jpg
+"GET /about/your-background.jpg HTTP/1.1" 404 3977
+"GET /about/ HTTP/1.1" 200 6291
+"GET /about/ HTTP/1.1" 200 6290
+Not Found: /about/your-logo.png
+"GET /about/your-logo.png HTTP/1.1" 404 3959
+Not Found: /about/your-background.jpg
+"GET /about/your-background.jpg HTTP/1.1" 404 3977
+"GET /about/ HTTP/1.1" 200 6290
+"GET /about/ HTTP/1.1" 200 8930
+Not Found: /about/your-logo.png
+"GET /about/your-logo.png HTTP/1.1" 404 3959
+Not Found: /about/your-background.jpg
+"GET /about/your-background.jpg HTTP/1.1" 404 3977
+"GET /about/ HTTP/1.1" 200 8930
+"GET /home/ HTTP/1.1" 200 7761
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 3956
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 3974
+"GET /home/ HTTP/1.1" 200 7761
+Internal Server Error: /home/
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alpha/new/app/new/views.py", line 11, in home
+    return render(request,'home.html',{})
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'Menu' not found. 'Menu' is not a valid view function or pattern name.
+"GET /home/ HTTP/1.1" 500 140344
+Internal Server Error: /home/
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alpha/new/app/new/views.py", line 11, in home
+    return render(request,'home.html',{})
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'Menu' not found. 'Menu' is not a valid view function or pattern name.
+"GET /home/ HTTP/1.1" 500 139297
+"GET /home/ HTTP/1.1" 200 7758
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 3956
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 3974
+"GET /home/ HTTP/1.1" 200 7758
+"GET /menu/ HTTP/1.1" 200 8256
+Not Found: /menu/your-logo.png
+"GET /menu/your-logo.png HTTP/1.1" 404 3956
+Not Found: /menu/your-background.jpg
+"GET /menu/your-background.jpg HTTP/1.1" 404 3974
+"GET /menu/ HTTP/1.1" 200 8256
+"GET /about/ HTTP/1.1" 200 8927
+Not Found: /about/your-logo.png
+"GET /about/your-logo.png HTTP/1.1" 404 3959
+Not Found: /about/your-background.jpg
+"GET /about/your-background.jpg HTTP/1.1" 404 3977
+"GET /about/ HTTP/1.1" 200 8927
+"GET /about/ HTTP/1.1" 200 8921
+Not Found: /about/your-logo.png
+"GET /about/your-logo.png HTTP/1.1" 404 3959
+Not Found: /about/your-background.jpg
+"GET /about/your-background.jpg HTTP/1.1" 404 3977
+"GET /about/ HTTP/1.1" 200 8921
+"GET /contact/ HTTP/1.1" 200 3420
+"GET /contact/ HTTP/1.1" 200 3420
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /contact/ HTTP/1.1" 200 8077
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 3965
+Not Found: /contact/your-background.jpg
+"GET /contact/your-background.jpg HTTP/1.1" 404 3983
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /contact/ HTTP/1.1" 200 8077
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
