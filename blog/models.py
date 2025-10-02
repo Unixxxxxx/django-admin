@@ -16,5 +16,5 @@ class Contact(models.Model):
     email = models.EmailField()
 
     def __str__(self):
-        return self.nam
+        return self.name
      
