@@ -4737,3 +4737,16 @@ Traceback (most recent call last):
     raise self.error(
 django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 63: 'endblock'. Did you forget to register or load this tag?
 "GET /about/ HTTP/1.1" 500 180321
+Watching for file changes with StatReloader
+"GET /about/ HTTP/1.1" 200 8921
+Not Found: /about/your-logo.png
+"GET /about/your-logo.png HTTP/1.1" 404 3959
+Not Found: /about/your-background.jpg
+"GET /about/your-background.jpg HTTP/1.1" 404 3977
+"GET /contact/ HTTP/1.1" 200 8077
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 3965
+Not Found: /contact/your-background.jpg
+"GET /contact/your-background.jpg HTTP/1.1" 404 3983
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /contact/ HTTP/1.1" 200 8077
