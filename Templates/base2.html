@@ -50,11 +50,11 @@
       
       <!-- Menu -->
       <div class="hidden md:flex space-x-8 text-white font-medium text-lg">
-        <a href="#home" class="hover:text-pink-400">Home</a>
-        <a href="#menu" class="hover:text-pink-400">Menu</a>
-        <a href="#blog" class="hover:text-pink-400">Blog</a>
-        <a href="#about" class="hover:text-pink-400">About</a>
-        <a href="#contact" class="hover:text-pink-400">Contact</a>
+	      <a href="{% url "home" %}" class="hover:text-pink-400">Home</a>
+	      <a href="{% url 'menu' %}" class="hover:text-pink-400">Menu</a>
+	      <a href="{% url 'about' %}" class="hover:text-pink-400">about</a>
+        <a href="#" class="hover:text-pink-400">About</a>
+	<a href="{% url "contact" %}" class="hover:text-pink-400">Contact</a>
         <a href="#signin" class="border border-white px-4 py-1 hover:bg-white hover:text-black transition">SIGN IN</a>
       </div>
     </nav>
@@ -71,7 +71,7 @@
 
       <!-- CTA Buttons -->
       <div class="mt-8 flex space-x-6 fade-in-up">
-        <a href="#menu" class="px-6 py-3 bg-pink-500 hover:bg-pink-600 rounded-full text-white font-semibold shadow-lg transition">
+	      <a href="{% url 'menu' %}" class="px-6 py-3 bg-pink-500 hover:bg-pink-600 rounded-full text-white font-semibold shadow-lg transition">
           Explore Menu
         </a>
         <a href="#contact" class="px-6 py-3 bg-transparent border border-white rounded-full text-white font-semibold hover:bg-white hover:text-black transition">
@@ -79,12 +79,19 @@
         </a>
       </div>
     </div>
+      <main class="flex-grow pt-24">
+    {% block contact %}{% endblock %}
+    {% block Home %} {% endblock %}
+    {% block menu %}{% endblock %}
+    {% block about %} {% endblock %}
+    {% block index %}{% endblock %}
+  </main>
 
-    <!-- Scroll Down Icon -->
+    <!-- Scroll Down Icon
     <div class="absolute bottom-6 w-full flex justify-center z-10">
       <a href="#menu" class="text-white animate-bounce">⬇</a>
     </div>
-  </div>
+  </div> -->
 
   <!-- Dummy Sections -->
   <section id="menu" class="h-screen bg-pink-50 flex items-center justify-center">
@@ -95,9 +102,9 @@
     <h2 class="text-4xl font-bold text-white">📞 Contact Us</h2>
   </section>
   <footer class="bg-gray-900 text-gray-300 py-12 border-t border-gray-700">
-  <div class="max-w-screen-xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
+  <div class="max-w-screen-xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10"> 
 
-    <!-- About -->
+    <!-- About-->
     <div>
       <h2 class="text-lg font-bold text-white mb-4">ABOUT</h2>
       <ul class="space-y-2">
@@ -124,7 +131,7 @@
       <h2 class="text-lg font-bold text-white mb-4">COURSES</h2>
       <ul>
         <li><a href="#" class="hover:text-pink-500">Explore Academy</a></li>
-      </ul>
+      </ul>t
     </div>
 
     <!-- Call to action -->
@@ -133,7 +140,7 @@
       <p class="text-sm mb-4">
         Get started with a career in I.T. with courses from Cake Haven.
       </p>
-      <a href="#"
+      <a href="#"t
          class="bg-pink-500 text-white px-4 py-2 rounded-md shadow hover:bg-pink-600">
         START LEARNING →
       </a>
