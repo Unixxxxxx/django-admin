@@ -1,10 +1,10 @@
 from django.contrib import admin
 from django.utils.html import format_html
 from .models import BlogPost
-
+from .models import Contact
 @admin.register(BlogPost)
 class BlogPostAdmin(admin.ModelAdmin):
-    list_display = ('title', 'created_at', 'image_preview')  # 👈 show preview
+    list_display = ('title', 'created_at', 'image_preview')  
     search_fields = ('title', 'description')
     list_filter = ('created_at',)
     ordering = ('-created_at',)
@@ -15,4 +15,10 @@ class BlogPostAdmin(admin.ModelAdmin):
             return format_html('<img src="{}" width="60" height="40" style="object-fit:cover; border-radius:4px;" />', obj.image.url)
         return "No Image"
     image_preview.short_description = 'Preview'
+
+@admin.register(Contact)
+class Contact(admin.ModelAdmin):
+    list_display =('name', 'age', 'email')
+    search_fields = ('name', 'email')
+    list_filter = ('age',)
 
