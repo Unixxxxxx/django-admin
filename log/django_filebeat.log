@@ -3565,3 +3565,13 @@ Not Found: /favicon.ico
 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
 "GET /admin/blog/blogpost/add/ HTTP/1.1" 200 15634
+Watching for file changes with StatReloader
+"GET /admin/blog/blogpost/add/ HTTP/1.1" 200 15634
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/blog/blogpost/add/ HTTP/1.1" 200 15634
+"GET /admin/ HTTP/1.1" 200 14396
+"GET /admin/ HTTP/1.1" 200 14396
+/home/alpha/new/app/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/alpha/new/app/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
