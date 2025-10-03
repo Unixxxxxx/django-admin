@@ -14,3 +14,7 @@ def get_quote(request):
         form = QuoteRequestForm()
     return render(request, "travel/get_quote.html", {"form": form})
 
+
+def home(request):
+    form = QuoteRequestForm()
+    return render(request, "index.html", {"form": form})
