@@ -4959,3 +4959,359 @@ Not Found: /travel/get-quote/your-logo.png
 Not Found: /travel/get-quote/your-background.jpg
 "GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
 "GET /travel/get-quote/ HTTP/1.1" 200 9550
+Watching for file changes with StatReloader
+"POST /travel/get-quote/ HTTP/1.1" 200 209
+"GET /travel/get-quote/ HTTP/1.1" 200 9550
+Watching for file changes with StatReloader
+"GET /travel/get-quote/ HTTP/1.1" 200 9550
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9550
+"GET /admin/ HTTP/1.1" 200 15167
+"GET /admin/ HTTP/1.1" 200 15167
+"GET /admin/new/contact/ HTTP/1.1" 200 16842
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/new/contact/ HTTP/1.1" 200 16842
+"POST /admin/new/contact/ HTTP/1.1" 200 8961
+"GET /admin/new/contact/ HTTP/1.1" 200 16842
+"POST /admin/new/contact/ HTTP/1.1" 302 0
+"GET /admin/new/contact/ HTTP/1.1" 200 13670
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/new/contact/ HTTP/1.1" 200 13324
+"GET /admin/new/contact/ HTTP/1.1" 200 13324
+"GET /admin/new/contact/ HTTP/1.1" 200 13324
+"GET /admin/ HTTP/1.1" 200 15161
+"GET /admin/ HTTP/1.1" 200 15161
+"GET /admin/blog/blogpost/ HTTP/1.1" 200 13338
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/blog/blogpost/ HTTP/1.1" 200 13338
+"GET /admin/ HTTP/1.1" 200 15161
+"GET /admin/ HTTP/1.1" 200 15161
+"GET /admin/blog/contact/ HTTP/1.1" 200 15017
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/blog/contact/ HTTP/1.1" 200 15017
+"POST /admin/blog/contact/ HTTP/1.1" 200 8791
+"GET /admin/blog/contact/ HTTP/1.1" 200 15017
+"POST /admin/blog/contact/ HTTP/1.1" 302 0
+"GET /admin/blog/contact/ HTTP/1.1" 200 13086
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/blog/contact/ HTTP/1.1" 200 12741
+"GET /admin/ HTTP/1.1" 200 15131
+"GET /admin/ HTTP/1.1" 200 15131
+"GET /admin/new/contact/ HTTP/1.1" 200 13324
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/new/contact/ HTTP/1.1" 200 13324
+"GET /admin/ HTTP/1.1" 200 15131
+"GET /admin/ HTTP/1.1" 200 15131
+"GET /admin/blog/blogpost/ HTTP/1.1" 200 13338
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/blog/blogpost/ HTTP/1.1" 200 13338
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 11116
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 4091
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 4109
+"GET / HTTP/1.1" 200 11116
+"GET / HTTP/1.1" 200 11116
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 4091
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 4109
+"GET / HTTP/1.1" 200 11116
+"GET /travel/get-quote/ HTTP/1.1" 200 9550
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9550
+"GET /travel/get-quote/ HTTP/1.1" 200 9550
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9550
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4196
+"GET /home/ HTTP/1.1" 200 7758
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4196
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4106
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4124
+"GET /home/ HTTP/1.1" 200 7758
+"GET /travel/get-quote/ HTTP/1.1" 200 9550
+"GET /travel/get-quote/ HTTP/1.1" 200 9550
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9550
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 7758
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4106
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4124
+"GET /home/ HTTP/1.1" 200 7758
+Internal Server Error: /home/
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alpha/new/app/new/views.py", line 11, in home
+    return render(request,'home.html',{})
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'base1.html ' not found. 'base1.html ' is not a valid view function or pattern name.
+"GET /home/ HTTP/1.1" 500 141473
+Internal Server Error: /home/
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alpha/new/app/new/views.py", line 11, in home
+    return render(request,'home.html',{})
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'base1.html ' not found. 'base1.html ' is not a valid view function or pattern name.
+"GET /home/ HTTP/1.1" 500 140415
+Internal Server Error: /home/
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alpha/new/app/new/views.py", line 11, in home
+    return render(request,'home.html',{})
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'travel ' not found. 'travel ' is not a valid view function or pattern name.
+"GET /home/ HTTP/1.1" 500 141373
+Internal Server Error: /home/
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alpha/new/app/new/views.py", line 11, in home
+    return render(request,'home.html',{})
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'travel ' not found. 'travel ' is not a valid view function or pattern name.
+"GET /home/ HTTP/1.1" 500 140315
+"GET /home/ HTTP/1.1" 200 7769
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4106
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4124
+"GET /travel/get-quote/ HTTP/1.1" 200 9561
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9561
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /home/ HTTP/1.1" 200 7769
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4106
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4124
+"GET /menu/ HTTP/1.1" 200 8267
+Not Found: /menu/your-logo.png
+"GET /menu/your-logo.png HTTP/1.1" 404 4106
+Not Found: /menu/your-background.jpg
+"GET /menu/your-background.jpg HTTP/1.1" 404 4124
+"GET /home/ HTTP/1.1" 200 7769
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4106
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4124
+"GET /menu/ HTTP/1.1" 200 8267
+Not Found: /menu/your-logo.png
+"GET /menu/your-logo.png HTTP/1.1" 404 4106
+Not Found: /menu/your-background.jpg
+"GET /menu/your-background.jpg HTTP/1.1" 404 4124
+"GET /about/ HTTP/1.1" 200 8938
+Not Found: /about/your-logo.png
+"GET /about/your-logo.png HTTP/1.1" 404 4109
+Not Found: /about/your-background.jpg
+"GET /about/your-background.jpg HTTP/1.1" 404 4127
+"GET /home/ HTTP/1.1" 200 7769
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4106
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4124
+"GET /home/ HTTP/1.1" 200 7769
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 7769
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4106
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4124
+"GET /home/ HTTP/1.1" 200 7769
+"GET /travel/get-quote/ HTTP/1.1" 200 9561
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9561
+"GET /travel/get-quote/ HTTP/1.1" 200 9561
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9561
+Watching for file changes with StatReloader
+"GET /travel/get-quote/ HTTP/1.1" 200 9575
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9575
+"GET /travel/get-quote/ HTTP/1.1" 200 9518
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9518
+"GET /home/ HTTP/1.1" 200 7726
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4106
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4124
+"GET /home/ HTTP/1.1" 200 7726
+"GET /home/ HTTP/1.1" 200 7899
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4106
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4124
+"GET /home/ HTTP/1.1" 200 7899

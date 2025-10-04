@@ -83,7 +83,7 @@
   </div>
 </div>
 
-<!-- Modal Script -->
+<!-- Modal Script 
 <script>
   function toggleModal(show) {
     document.getElementById("quoteModal").classList.toggle("hidden", !show);
@@ -106,26 +106,6 @@
       }
     });
   });
-</script>
+</script> -->
 
 {% endblock %}
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-  $("#quoteForm").on("submit", function(e) {
-    e.preventDefault();
-    $.ajax({
-      url: "{% url 'get_quote' %}",
-      method: "POST",
-      data: $(this).serialize(),
-      success: function(response) {
-        if (response.success) {
-          $("#formMsg").html("<p class='text-green-600'>" + response.message + "</p>");
-          $("#quoteForm")[0].reset();
-        } else {
-          $("#formMsg").html("<p class='text-red-600'>Please check the errors.</p>");
-        }
-      }
-    });
-  });
-</script>
-
