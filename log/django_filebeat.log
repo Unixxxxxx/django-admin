@@ -4887,3 +4887,12 @@ Not Found: /about/your-background.jpg
 Watching for file changes with StatReloader
 "GET /travel/get-quote/ HTTP/1.1" 200 3511
 "GET /travel/get-quote/ HTTP/1.1" 200 3511
+Watching for file changes with StatReloader
+"GET /travel/get-quote/ HTTP/1.1" 200 4879
+"GET /travel/get-quote/ HTTP/1.1" 200 4879
+"GET /home/ HTTP/1.1" 200 7752
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4106
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4124
+"GET /home/ HTTP/1.1" 200 7752
