@@ -4896,3 +4896,66 @@ Not Found: /home/your-logo.png
 Not Found: /home/your-background.jpg
 "GET /home/your-background.jpg HTTP/1.1" 404 4124
 "GET /home/ HTTP/1.1" 200 7752
+Watching for file changes with StatReloader
+"GET /travel/get-quote/ HTTP/1.1" 200 2361
+"GET /travel/get-quote/ HTTP/1.1" 200 2361
+"GET /travel/get-quote/ HTTP/1.1" 200 6403
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 6403
+Not Found: /travel
+"GET /travel HTTP/1.1" 404 4070
+Not Found: /travel
+"GET /travel HTTP/1.1" 404 4070
+Watching for file changes with StatReloader
+Not Found: /travel
+"GET /travel HTTP/1.1" 404 4070
+Not Found: /travel
+"GET /travel HTTP/1.1" 404 4070
+Not Found: /travel
+"GET /travel HTTP/1.1" 404 4070
+Not Found: /travel
+"GET /travel HTTP/1.1" 404 4070
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /home/ HTTP/1.1" 200 7752
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4106
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4124
+"GET /home/ HTTP/1.1" 200 7752
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 4893
+"GET /travel/get-quote/ HTTP/1.1" 200 9550
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9550

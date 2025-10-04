@@ -1,5 +1,5 @@
 <!-- travel/templates/travel/get_quote.html -->
-{% extends 'base1.html'%}
+{% extends 'base2.html'%}
 {% block form  %}
 <form method="POST" action="" class="bg-white shadow-lg rounded-2xl p-8 w-full max-w-2xl mx-auto border border-pink-200">
     {% csrf_token %}
@@ -35,7 +35,7 @@
 
         <!-- Number of People -->
         <div>
-            <label for="people" class="block text-sm font-medium text-gray-700">Number of People</label>
+get_quote.html            <label for="people" class="block text-sm font-medium text-gray-700">Number of People</label>
             <input type="number" id="people" name="people"
                 class="mt-1 w-full rounded-lg border-gray-300 focus:ring-pink-500 focus:border-pink-500 shadow-sm p-2"
                 placeholder="e.g. 4" required>
