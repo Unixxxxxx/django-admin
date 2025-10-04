@@ -4861,3 +4861,29 @@ Not Found: /your-logo.png
 Not Found: /your-background.jpg
 "GET /your-background.jpg HTTP/1.1" 404 4109
 "GET / HTTP/1.1" 200 11110
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 11110
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 4091
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 4109
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4085
+"GET / HTTP/1.1" 200 11110
+"GET /menu/ HTTP/1.1" 200 8250
+Not Found: /menu/your-logo.png
+"GET /menu/your-logo.png HTTP/1.1" 404 4106
+Not Found: /menu/your-background.jpg
+"GET /menu/your-background.jpg HTTP/1.1" 404 4124
+"GET /menu/ HTTP/1.1" 200 8250
+"GET /about/ HTTP/1.1" 200 8921
+Not Found: /about/your-logo.png
+"GET /about/your-logo.png HTTP/1.1" 404 4109
+Not Found: /about/your-background.jpg
+"GET /about/your-background.jpg HTTP/1.1" 404 4127
+"GET /about/ HTTP/1.1" 200 8921
+"GET /travel/get-quote/ HTTP/1.1" 200 1808
+"GET /travel/get-quote/ HTTP/1.1" 200 1808
+Watching for file changes with StatReloader
+"GET /travel/get-quote/ HTTP/1.1" 200 3511
+"GET /travel/get-quote/ HTTP/1.1" 200 3511
