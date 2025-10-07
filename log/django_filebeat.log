@@ -5485,3 +5485,8 @@ Not Found: /home/your-logo.png
 Not Found: /home/your-background.jpg
 "GET /home/your-background.jpg HTTP/1.1" 404 4124
 "GET /home/ HTTP/1.1" 200 7906
+Not Found: /your-logo.png
+Not Found: /your-logo.png
+Not Found: /your-logo.png
+Not Found: /your-logo.png
+Not Found: /your-background.jpg
