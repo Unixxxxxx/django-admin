@@ -5552,3 +5552,284 @@ Watching for file changes with StatReloader
 "GET /admin/blog/blogpost/ HTTP/1.1" 200 13687
 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
 "GET /admin/blog/blogpost/ HTTP/1.1" 200 13340
+"GET / HTTP/1.1" 200 11265
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 4091
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 4109
+"GET / HTTP/1.1" 200 11265
+"GET / HTTP/1.1" 200 11265
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 4091
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 4109
+"GET / HTTP/1.1" 200 11265
+"GET /travel/get-quote/ HTTP/1.1" 200 9698
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9698
+"GET /travel/get-quote/ HTTP/1.1" 200 9698
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9698
+"GET /contact/ HTTP/1.1" 200 8231
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 4115
+Not Found: /contact/your-background.jpg
+"GET /contact/your-background.jpg HTTP/1.1" 404 4133
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /contact/ HTTP/1.1" 200 8231
+"GET /about/ HTTP/1.1" 200 9075
+Not Found: /about/your-logo.png
+"GET /about/your-logo.png HTTP/1.1" 404 4109
+Not Found: /about/your-background.jpg
+"GET /about/your-background.jpg HTTP/1.1" 404 4127
+"GET /about/ HTTP/1.1" 200 9075
+"GET /travel/get-quote/ HTTP/1.1" 200 9698
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9698
+"POST /travel/get-quote/ HTTP/1.1" 200 209
+"GET /travel/get-quote/ HTTP/1.1" 200 9698
+"GET /travel/get-quote/ HTTP/1.1" 200 9698
+"GET /travel/get-quote/ HTTP/1.1" 200 9698
+"POST /travel/get-quote/ HTTP/1.1" 200 209
+"GET /travel/get-quote/ HTTP/1.1" 200 9698
+"GET /travel/get-quote/ HTTP/1.1" 200 9698
+"GET /travel/get-quote/ HTTP/1.1" 200 9698
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 7906
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4106
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4124
+"GET /home/ HTTP/1.1" 200 7906
+"GET / HTTP/1.1" 200 11265
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 4091
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 4109
+"GET / HTTP/1.1" 200 11265
+"GET /contact/ HTTP/1.1" 200 8231
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 4115
+Not Found: /contact/your-background.jpg
+"GET /contact/your-background.jpg HTTP/1.1" 404 4133
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /contact/ HTTP/1.1" 200 8231
+"GET /contact/ HTTP/1.1" 200 8231
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 4115
+Not Found: /contact/your-background.jpg
+"GET /contact/your-background.jpg HTTP/1.1" 404 4133
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /contact/ HTTP/1.1" 200 8231
+"POST /contact/ HTTP/1.1" 200 532
+"GET /contact/ HTTP/1.1" 200 8231
+"GET /contact/ HTTP/1.1" 200 8231
+"GET /contact/ HTTP/1.1" 200 8231
+"GET /travel/get-quote/ HTTP/1.1" 200 9698
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9698
+"GET /contact/ HTTP/1.1" 200 8231
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 4115
+Not Found: /contact/your-background.jpg
+"GET /contact/your-background.jpg HTTP/1.1" 404 4133
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /contact/ HTTP/1.1" 200 8231
+"GET /contact/ HTTP/1.1" 200 8231
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 4115
+Not Found: /contact/your-background.jpg
+"GET /contact/your-background.jpg HTTP/1.1" 404 4133
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /travel/get-quote/ HTTP/1.1" 200 9698
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9698
+"GET /travel/get-quote/ HTTP/1.1" 200 9698
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9698
+"GET /travel/get-quote/ HTTP/1.1" 200 9684
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9684
+"GET /travel/get-quote/ HTTP/1.1" 200 9684
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9684
+"GET /travel/get-quote/ HTTP/1.1" 200 9684
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9684
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9684
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9684
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9684
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9684
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9684
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9684
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9684
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9684
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9684
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9684
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9684
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9684
+Not Found: /travel/get-quote/your-logo.png
+"GET /travel/get-quote/your-logo.png HTTP/1.1" 404 4260
+Not Found: /travel/get-quote/your-background.jpg
+"GET /travel/get-quote/your-background.jpg HTTP/1.1" 404 4278
+"GET /travel/get-quote/ HTTP/1.1" 200 9684
+"GET /contact/ HTTP/1.1" 200 8217
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 4115
+Not Found: /contact/your-background.jpg
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /contact/your-background.jpg HTTP/1.1" 404 4133
+"GET /contact/ HTTP/1.1" 200 8217
+"GET /contact/ HTTP/1.1" 200 8217
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 4115
+Not Found: /contact/your-background.jpg
+"GET /contact/your-background.jpg HTTP/1.1" 404 4133
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /contact/ HTTP/1.1" 200 8217
+"GET /contact/ HTTP/1.1" 200 8217
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 4115
+Not Found: /contact/your-background.jpg
+"GET /contact/your-background.jpg HTTP/1.1" 404 4133
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /contact/ HTTP/1.1" 200 8217
+"GET /home/ HTTP/1.1" 200 7892
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4106
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4124
+"GET /home/ HTTP/1.1" 200 7892
+Not Found: /home/new
+"GET /home/new HTTP/1.1" 404 4076
+Not Found: /home/new
+"GET /home/new HTTP/1.1" 404 4076
+"GET /home/ HTTP/1.1" 200 7892
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4106
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4124
+"GET /home/ HTTP/1.1" 200 7892
+"GET /contact/ HTTP/1.1" 200 8217
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 4115
+Not Found: /contact/your-background.jpg
+"GET /contact/your-background.jpg HTTP/1.1" 404 4133
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /contact/ HTTP/1.1" 200 8217
+"GET /contact/ HTTP/1.1" 200 8217
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 4115
+Not Found: /contact/your-background.jpg
+"GET /contact/your-background.jpg HTTP/1.1" 404 4133
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /contact/ HTTP/1.1" 200 8217
+"GET /home/ HTTP/1.1" 200 7892
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4106
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4124
+"GET /home/ HTTP/1.1" 200 7892
+"GET /home/ HTTP/1.1" 200 7892
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4106
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4124
+"GET /home/ HTTP/1.1" 200 7892
+"GET /contact/ HTTP/1.1" 200 8217
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 4115
+Not Found: /contact/your-background.jpg
+"GET /contact/your-background.jpg HTTP/1.1" 404 4133
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /contact/ HTTP/1.1" 200 8217
+"GET /contact/ HTTP/1.1" 200 8217
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 4115
+Not Found: /contact/your-background.jpg
+"GET /contact/your-background.jpg HTTP/1.1" 404 4133
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /contact/ HTTP/1.1" 200 8217
+"POST /contact/ HTTP/1.1" 200 1704
+"GET /contact/ HTTP/1.1" 200 8217
+"GET /admin/blog/blogpost/ HTTP/1.1" 200 13340
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/blog/blogpost/ HTTP/1.1" 200 13340
+"GET /admin/blog/blogpost/ HTTP/1.1" 200 13340
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/blog/blogpost/ HTTP/1.1" 200 13340
