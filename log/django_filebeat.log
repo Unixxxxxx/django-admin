@@ -5835,3 +5835,136 @@ Not Found: /contact/your-background.jpg
 "GET /admin/blog/blogpost/ HTTP/1.1" 200 13340
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
+Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    compile_func = self.tags[command]
+KeyError: 'end'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alpha/new/app/new/views.py", line 27, in contact_view
+    return render(request, 'success.html', {"name": name})
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader_tags.py", line 299, in do_extends
+    nodelist = parser.parse()
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/base.py", line 567, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 13: 'end', expected 'endblock'. Did you forget to register or load this tag?
+"POST /contact/ HTTP/1.1" 500 161888
+"GET /contact/ HTTP/1.1" 200 8217
+"POST /contact/ HTTP/1.1" 200 1704
+"GET /contact/ HTTP/1.1" 200 8217
+"POST /contact/ HTTP/1.1" 200 2036
+"GET /contact/ HTTP/1.1" 200 8217
+"GET /home/ HTTP/1.1" 200 7892
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4106
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4124
+"GET /home/ HTTP/1.1" 200 7892
+"GET /contact/ HTTP/1.1" 200 8217
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 4115
+Not Found: /contact/your-background.jpg
+"GET /contact/your-background.jpg HTTP/1.1" 404 4133
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /contact/ HTTP/1.1" 200 8217
+"GET /contact/ HTTP/1.1" 200 8217
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 4115
+Not Found: /contact/your-background.jpg
+"GET /contact/your-background.jpg HTTP/1.1" 404 4133
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /contact/ HTTP/1.1" 200 8217
+"GET /contact/ HTTP/1.1" 200 8217
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 4115
+Not Found: /contact/your-background.jpg
+"GET /contact/your-background.jpg HTTP/1.1" 404 4133
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /contact/ HTTP/1.1" 200 8217
+"POST /contact/ HTTP/1.1" 200 6495
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 4115
+Not Found: /contact/your-background.jpg
+"GET /contact/your-background.jpg HTTP/1.1" 404 4133
+"GET /contact/ HTTP/1.1" 200 8217
+"POST /contact/ HTTP/1.1" 200 6495
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 4115
+Not Found: /contact/your-background.jpg
+"GET /contact/your-background.jpg HTTP/1.1" 404 4133
+"GET /contact/ HTTP/1.1" 200 8217
+"POST /contact/ HTTP/1.1" 200 6495
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 4115
+Not Found: /contact/your-background.jpg
+"GET /contact/your-background.jpg HTTP/1.1" 404 4133
+"GET /contact/ HTTP/1.1" 200 8217
+"GET /contact/ HTTP/1.1" 200 8217
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 4115
+Not Found: /contact/your-background.jpg
+"GET /contact/your-background.jpg HTTP/1.1" 404 4133
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /contact/ HTTP/1.1" 200 8217
+"POST /contact/ HTTP/1.1" 200 6495
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 4115
+Not Found: /contact/your-background.jpg
+"GET /contact/your-background.jpg HTTP/1.1" 404 4133
+"GET /contact/ HTTP/1.1" 200 8217
+"POST /contact/ HTTP/1.1" 200 6827
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 4115
+Not Found: /contact/your-background.jpg
+"GET /contact/your-background.jpg HTTP/1.1" 404 4133
+"GET /contact/ HTTP/1.1" 200 8223
+"GET /admin/ HTTP/1.1" 200 13662
+"GET /admin/ HTTP/1.1" 200 13662
+"GET /admin/new/contact/ HTTP/1.1" 200 21331
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/new/contact/ HTTP/1.1" 200 21331
+"POST /admin/new/contact/ HTTP/1.1" 200 10521
+"GET /admin/new/contact/ HTTP/1.1" 200 21331
+"POST /admin/new/contact/ HTTP/1.1" 302 0
+"GET /admin/new/contact/ HTTP/1.1" 200 13673
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/new/contact/ HTTP/1.1" 200 13326
