@@ -93,7 +93,7 @@
   $("#quoteForm").on("submit", function(e) {
     e.preventDefault();
     $.ajax({
-      url: "{% url 'get_quote' %}",
+      url: "/",
       method: "POST",
       data: $(this).serialize(),
       success: function(response) {
