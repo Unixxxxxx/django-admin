@@ -5968,3 +5968,12 @@ Not Found: /contact/your-background.jpg
 "GET /admin/new/contact/ HTTP/1.1" 200 13673
 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
 "GET /admin/new/contact/ HTTP/1.1" 200 13326
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 11257
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 4091
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 4109
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4085
+"GET / HTTP/1.1" 200 11257
