@@ -22,7 +22,6 @@ urlpatterns = [
     path("grappelli/", include("grappelli.urls")),
     path('admin/', admin.site.urls),
     path('',include('new.urls')),
-    path("travel/", include("travel.urls")),
 ]
 
 if settings.DEBUG:
