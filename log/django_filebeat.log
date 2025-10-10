@@ -5977,3 +5977,6 @@ Not Found: /your-background.jpg
 Not Found: /favicon.ico
 "GET /favicon.ico HTTP/1.1" 404 4085
 "GET / HTTP/1.1" 200 11257
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
