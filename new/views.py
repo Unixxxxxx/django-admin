@@ -35,8 +35,8 @@ def new_form_view(request):
         form = NewForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect('success')
+            return redirect('new/success')
     else:
         form = NewForm()
-    return render(request, 'new_form.html', {'form': form})
+    return render(request, 'new/new_form.html', {'form': form})
 
