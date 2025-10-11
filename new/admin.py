@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Contact
+from .models import Contact, new
 @admin.register(Contact)
 class ContactAdmin(admin.ModelAdmin):
     list_display = ("name", "email", "short_message", "created_at")
@@ -11,4 +11,7 @@ class ContactAdmin(admin.ModelAdmin):
         return obj.message[:50] + ("..." if len(obj.message) > 50 else "")
     short_message.short_description = "Message"
 
-
+@admin.register(new)
+class NewAdmin(admin.ModelAdmin):
+    list_display = ('name', 'message')  
+    search_fields = ('name',)  
