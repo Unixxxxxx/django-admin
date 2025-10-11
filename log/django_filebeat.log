@@ -7595,3 +7595,18 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 200 14210
+"GET /admin/ HTTP/1.1" 200 14210
+"GET /admin/new/new/ HTTP/1.1" 200 11725
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/new/new/ HTTP/1.1" 200 11725
+"GET /admin/new/new/add/ HTTP/1.1" 200 15448
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /admin/new/new/add/ HTTP/1.1" 200 15448
+"POST /admin/new/new/add/ HTTP/1.1" 302 0
+"GET /admin/new/new/ HTTP/1.1" 200 14039
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/grappelli/images/backgrounds/changelist-results.png HTTP/1.1" 304 0
+"GET /admin/new/new/ HTTP/1.1" 200 13644
