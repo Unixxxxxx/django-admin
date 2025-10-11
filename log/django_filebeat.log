@@ -7591,3 +7591,4 @@ Not Found: /your-background.jpg
 "GET /admin/new/new/ HTTP/1.1" 200 11725
 "GET /admin/ HTTP/1.1" 200 14210
 "GET /admin/ HTTP/1.1" 200 14210
+Watching for file changes with StatReloader
