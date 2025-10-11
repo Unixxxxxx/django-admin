@@ -1,6 +1,6 @@
 from django.shortcuts import render 
-from .forms import ContactForm 
-from .models import Contact
+from .forms import ContactForm, NewForm 
+from .models import Contact, new
 
 # Create your views here.
 
@@ -30,5 +30,13 @@ def contact_view(request):
 
 
     return render(request, 'contact.html', {"form": form})
-
+def new_form_view(request):
+    if request.method == 'POST':
+        form = NewForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('success')
+    else:
+        form = NewForm()
+    return render(request, 'new_form.html', {'form': form})
 
