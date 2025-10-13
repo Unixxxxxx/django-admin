@@ -35,8 +35,11 @@ def new_form_view(request):
         form = NewForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect('new/success')
+            return redirect('success')  # redirect to the success page by name
     else:
         form = NewForm()
     return render(request, 'new/new_form.html', {'form': form})
+
+def success_view(request):
+    return render(request, 'new/success.html')
 

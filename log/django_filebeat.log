@@ -7633,3 +7633,91 @@ Not Found: /your-background.jpg
 "GET / HTTP/1.1" 200 11240
 Not Found: /favicon.ico
 "GET /favicon.ico HTTP/1.1" 404 3787
+Watching for file changes with StatReloader
+/home/alpha/new/app/new/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/alpha/new/app/new/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 11240
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 4300
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 4318
+"GET / HTTP/1.1" 200 11240
+Not Found: /new
+"GET /new HTTP/1.1" 404 4270
+Not Found: /new
+"GET /new HTTP/1.1" 404 4270
+Not Found: /new
+"GET /new HTTP/1.1" 404 4270
+Not Found: /new
+"GET /new HTTP/1.1" 404 4270
+Not Found: /new_form
+"GET /new_form HTTP/1.1" 404 4285
+Not Found: /new_form
+"GET /new_form HTTP/1.1" 404 4285
+Not Found: /new/
+"GET /new/ HTTP/1.1" 404 4273
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4294
+Not Found: /new/
+"GET /new/ HTTP/1.1" 404 4273
+Not Found: /new/
+"GET /new/ HTTP/1.1" 404 4273
+Not Found: /new/
+"GET /new/ HTTP/1.1" 404 4273
+Not Found: /new/
+"GET /new/ HTTP/1.1" 404 4273
+Not Found: /new/success/
+"GET /new/success/ HTTP/1.1" 404 4297
+Not Found: /new/success/
+"GET /new/success/ HTTP/1.1" 404 4297
+Not Found: /new/success/
+"GET /new/success/ HTTP/1.1" 404 4297
+Not Found: /new/success/
+"GET /new/success/ HTTP/1.1" 404 4297
+Not Found: /new/success/
+"GET /new/success/ HTTP/1.1" 404 4297
+Not Found: /new/success/
+"GET /new/success/ HTTP/1.1" 404 4297
+Not Found: /new/success/
+"GET /new/success/ HTTP/1.1" 404 4297
+Not Found: /new/success/
+"GET /new/success/ HTTP/1.1" 404 4297
+Not Found: /new/success/
+"GET /new/success/ HTTP/1.1" 404 4297
+Not Found: /new/success/
+"GET /new/success/ HTTP/1.1" 404 4297
+Not Found: /new/success/
+"GET /new/success/ HTTP/1.1" 404 4297
+Not Found: /new/success/
+"GET /new/success/ HTTP/1.1" 404 4297
+"GET / HTTP/1.1" 200 11240
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 4300
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 4318
+"GET / HTTP/1.1" 200 11240
+Not Found: /new
+"GET /new HTTP/1.1" 404 4270
+Not Found: /new
+"GET /new HTTP/1.1" 404 4270
+/home/alpha/new/app/app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /new HTTP/1.1" 301 0
+"GET /new/ HTTP/1.1" 200 11272
+Not Found: /new/your-logo.png
+"GET /new/your-logo.png HTTP/1.1" 404 4340
+Not Found: /new/your-background.jpg
+"GET /new/your-background.jpg HTTP/1.1" 404 4358
+"GET /new/ HTTP/1.1" 200 11272
+"GET /new/ HTTP/1.1" 200 11272
+Not Found: /new/your-logo.png
+"GET /new/your-logo.png HTTP/1.1" 404 4340
+Not Found: /new/your-background.jpg
+"GET /new/your-background.jpg HTTP/1.1" 404 4358
+"GET /new/success/ HTTP/1.1" 200 25
+"GET /new/success/ HTTP/1.1" 200 25
+"GET /new/success/ HTTP/1.1" 200 25
+"GET /new/success/ HTTP/1.1" 200 25
+"GET /new/success/ HTTP/1.1" 200 25
