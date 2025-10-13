@@ -7795,3 +7795,26 @@ Not Found: /new_form
 "GET /new_form HTTP/1.1" 404 4285
 Not Found: /new_form
 "GET /new_form HTTP/1.1" 404 4285
+Watching for file changes with StatReloader
+Not Found: /new_form
+"GET /new_form HTTP/1.1" 404 2666
+Not Found: /new_form
+"GET /new_form HTTP/1.1" 404 2666
+Not Found: /new_form
+"GET /new_form HTTP/1.1" 404 2666
+Not Found: /new_form
+"GET /new_form HTTP/1.1" 404 2666
+Not Found: /new_form
+"GET /new_form HTTP/1.1" 404 2666
+Not Found: /new_form
+"GET /new_form HTTP/1.1" 404 2666
+Not Found: /new_form
+"GET /new_form HTTP/1.1" 404 2666
+Not Found: /new_form
+"GET /new_form HTTP/1.1" 404 2666
+"GET /new/ HTTP/1.1" 200 11272
+Not Found: /new/your-logo.png
+"GET /new/your-logo.png HTTP/1.1" 404 4340
+Not Found: /new/your-background.jpg
+"GET /new/your-background.jpg HTTP/1.1" 404 4358
+"GET /new/ HTTP/1.1" 200 11272
