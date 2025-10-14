@@ -7935,3 +7935,10 @@ Not Found: /home/your-logo.png
 Not Found: /home/your-background.jpg
 "GET /home/your-background.jpg HTTP/1.1" 404 4333
 "GET /home/ HTTP/1.1" 200 10115
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 10203
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4315
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4333
+"GET /home/ HTTP/1.1" 200 10203
