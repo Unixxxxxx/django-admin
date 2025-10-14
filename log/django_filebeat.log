@@ -8006,3 +8006,68 @@ Not Found: /your-logo.png
 Not Found: /your-background.jpg
 "GET /your-background.jpg HTTP/1.1" 404 4318
 "GET / HTTP/1.1" 200 11328
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 11332
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 4300
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 4318
+"GET / HTTP/1.1" 200 11332
+"GET /home/ HTTP/1.1" 200 10207
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4315
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4333
+"GET /home/ HTTP/1.1" 200 10207
+"GET /home/ HTTP/1.1" 200 10207
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4315
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4333
+"GET /home/ HTTP/1.1" 200 10207
+"GET /about/ HTTP/1.1" 200 9159
+Not Found: /about/your-logo.png
+"GET /about/your-logo.png HTTP/1.1" 404 4318
+Not Found: /about/your-background.jpg
+"GET /about/your-background.jpg HTTP/1.1" 404 4336
+"GET /about/ HTTP/1.1" 200 9159
+"GET /about/ HTTP/1.1" 200 9159
+Not Found: /about/your-logo.png
+"GET /about/your-logo.png HTTP/1.1" 404 4318
+Not Found: /about/your-background.jpg
+"GET /about/your-background.jpg HTTP/1.1" 404 4336
+"GET /about/ HTTP/1.1" 200 9159
+"GET /contact/ HTTP/1.1" 200 8315
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 4324
+Not Found: /contact/your-background.jpg
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /contact/your-background.jpg HTTP/1.1" 404 4342
+"GET /contact/ HTTP/1.1" 200 8315
+"GET /contact/ HTTP/1.1" 200 8315
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 4324
+Not Found: /contact/your-background.jpg
+"GET /contact/your-background.jpg HTTP/1.1" 404 4342
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /contact/ HTTP/1.1" 200 8315
+"GET /contact/ HTTP/1.1" 200 8315
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 4324
+Not Found: /contact/your-background.jpg
+"GET /contact/your-background.jpg HTTP/1.1" 404 4342
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /contact/ HTTP/1.1" 200 8315
+"GET /home/ HTTP/1.1" 200 10207
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4315
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4333
+"GET /home/ HTTP/1.1" 200 10207
+"GET /contact/ HTTP/1.1" 200 8315
+Not Found: /contact/your-logo.png
+"GET /contact/your-logo.png HTTP/1.1" 404 4324
+Not Found: /contact/your-background.jpg
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /contact/your-background.jpg HTTP/1.1" 404 4342
+"GET /contact/ HTTP/1.1" 200 8315
