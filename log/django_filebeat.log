@@ -8218,3 +8218,24 @@ Watching for file changes with StatReloader
 "GET /admin/auth/user/1/change/ HTTP/1.1" 200 25301
 "GET /admin/ HTTP/1.1" 200 14265
 "GET /admin/ HTTP/1.1" 200 14265
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 10207
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4315
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4333
+"GET /home/ HTTP/1.1" 200 10207
+"GET / HTTP/1.1" 200 12753
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 4300
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 4318
+"GET / HTTP/1.1" 200 12753
+"GET /home/ HTTP/1.1" 200 10207
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4315
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4333
+"GET /home/ HTTP/1.1" 200 10207
+"GET /menu/ HTTP/1.1" 200 2313
+"GET /menu/ HTTP/1.1" 200 2313
