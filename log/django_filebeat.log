@@ -7869,3 +7869,62 @@ Not Found: /your-logo.png
 Not Found: /your-background.jpg
 "GET /your-background.jpg HTTP/1.1" 404 4318
 "GET / HTTP/1.1" 200 11240
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 11240
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 4300
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 4318
+"GET / HTTP/1.1" 200 11240
+"GET /home/ HTTP/1.1" 200 9799
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4315
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4333
+"GET /home/ HTTP/1.1" 200 9799
+"GET /home/ HTTP/1.1" 200 9799
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4315
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4333
+"GET /home/ HTTP/1.1" 200 9799
+"GET /home/ HTTP/1.1" 200 9799
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4315
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4333
+"GET /home/ HTTP/1.1" 200 9799
+"GET /home/ HTTP/1.1" 200 9799
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4315
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4333
+"GET /home/ HTTP/1.1" 200 9799
+"GET / HTTP/1.1" 200 11240
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 4300
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 4318
+"GET / HTTP/1.1" 200 11240
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 11240
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 4300
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 4318
+"GET / HTTP/1.1" 200 11240
+"GET /home/ HTTP/1.1" 200 9799
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4315
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4333
+"GET /home/ HTTP/1.1" 200 9799
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 11505
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4315
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4333
+"GET /home/ HTTP/1.1" 200 11505
+"GET /menu/ HTTP/1.1" 200 2313
+"GET /menu/ HTTP/1.1" 200 2313
