@@ -7942,3 +7942,22 @@ Not Found: /home/your-logo.png
 Not Found: /home/your-background.jpg
 "GET /home/your-background.jpg HTTP/1.1" 404 4333
 "GET /home/ HTTP/1.1" 200 10203
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 10203
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4315
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4333
+"GET /home/ HTTP/1.1" 200 10203
+"GET /home/ HTTP/1.1" 200 10203
+Not Found: /home/your-logo.png
+"GET /home/your-logo.png HTTP/1.1" 404 4315
+Not Found: /home/your-background.jpg
+"GET /home/your-background.jpg HTTP/1.1" 404 4333
+"GET /home/ HTTP/1.1" 200 10203
+"GET / HTTP/1.1" 200 11328
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 4300
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 4318
+"GET / HTTP/1.1" 200 11328
