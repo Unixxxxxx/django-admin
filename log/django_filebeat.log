@@ -8239,3 +8239,10 @@ Not Found: /home/your-background.jpg
 "GET /home/ HTTP/1.1" 200 10207
 "GET /menu/ HTTP/1.1" 200 2313
 "GET /menu/ HTTP/1.1" 200 2313
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12841
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 4300
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 4318
+"GET / HTTP/1.1" 200 12841
