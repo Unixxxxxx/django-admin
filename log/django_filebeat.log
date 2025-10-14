@@ -7819,3 +7819,53 @@ Not Found: /new/your-background.jpg
 "GET /new/your-background.jpg HTTP/1.1" 404 4358
 "GET /new/ HTTP/1.1" 200 11272
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2624
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2675
+Not Found: /
+"GET / HTTP/1.1" 404 2624
+Not Found: /
+"GET / HTTP/1.1" 404 2624
+Not Found: /
+"GET / HTTP/1.1" 404 2624
+Not Found: /
+"GET / HTTP/1.1" 404 2624
+Not Found: /
+"GET / HTTP/1.1" 404 2624
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2675
+Not Found: /
+"GET / HTTP/1.1" 404 2624
+Not Found: /
+"GET / HTTP/1.1" 404 2624
+"GET /admin/ HTTP/1.1" 200 14223
+"GET /admin/ HTTP/1.1" 200 14223
+Not Found: /
+"GET / HTTP/1.1" 404 2624
+Not Found: /
+"GET / HTTP/1.1" 404 2624
+Not Found: /
+"GET / HTTP/1.1" 404 2624
+Not Found: /
+"GET / HTTP/1.1" 404 2624
+Not Found: /
+"GET / HTTP/1.1" 404 2624
+Not Found: /
+"GET / HTTP/1.1" 404 2624
+Not Found: /
+"GET / HTTP/1.1" 404 2624
+Not Found: /
+"GET / HTTP/1.1" 404 2624
+Not Found: /
+"GET / HTTP/1.1" 404 2624
+Not Found: /
+"GET / HTTP/1.1" 404 2624
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 11240
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 4300
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 4318
+"GET / HTTP/1.1" 200 11240
