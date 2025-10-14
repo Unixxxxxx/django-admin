@@ -1,8 +1,14 @@
 from django.shortcuts import render 
 from .forms import ContactForm, NewForm 
 from .models import Contact, new
-
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
 # Create your views here.
+
+@api_view(['GET'])
+def hello_api(request):
+    return Response({"message": "Hello Swagger!"})
+
 
 def index(request):
     return render(request,'index.html',{} )

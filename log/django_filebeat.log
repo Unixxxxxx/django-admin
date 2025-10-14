@@ -8246,3 +8246,33 @@ Not Found: /your-logo.png
 Not Found: /your-background.jpg
 "GET /your-background.jpg HTTP/1.1" 404 4318
 "GET / HTTP/1.1" 200 12841
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12873
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 5051
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 5069
+"GET / HTTP/1.1" 200 12873
+Not Found: /api/hello//
+"GET /api/hello// HTTP/1.1" 404 6953
+Not Found: /api/hello//
+"GET /api/hello// HTTP/1.1" 404 6953
+"GET /api/hello/ HTTP/1.1" 200 5206
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+"GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+"GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+"GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+"GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+"GET /api/hello/ HTTP/1.1" 200 28
