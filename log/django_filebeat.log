@@ -8278,3 +8278,99 @@ Not Found: /api/hello//
 "GET /api/hello/ HTTP/1.1" 200 28
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /api/hello/ HTTP/1.1" 200 28
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5045
+"GET /api/hello/ HTTP/1.1" 200 5206
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /api/hello/ HTTP/1.1" 200 28
+"GET /api/hello/?format=json HTTP/1.1" 200 28
+"GET /api/hello/?format=json HTTP/1.1" 200 28
+"OPTIONS /api/hello/ HTTP/1.1" 200 5513
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12873
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 5051
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 5069
+"GET / HTTP/1.1" 200 12873
+"GET /api/menu/ HTTP/1.1" 200 2313
+"GET /api/menu/ HTTP/1.1" 200 2313
+"GET /api/menu/? HTTP/1.1" 200 2313
+"GET /api/menu/? HTTP/1.1" 200 2313
+"GET /api/contact/ HTTP/1.1" 200 8435
+Not Found: /api/contact/your-logo.png
+"GET /api/contact/your-logo.png HTTP/1.1" 404 6995
+Not Found: /api/contact/your-background.jpg
+"GET /api/contact/your-background.jpg HTTP/1.1" 404 7013
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /api/contact/ HTTP/1.1" 200 8435
+"POST /api/contact/ HTTP/1.1" 200 7039
+Not Found: /api/contact/your-logo.png
+"GET /api/contact/your-logo.png HTTP/1.1" 404 6995
+Not Found: /api/contact/your-background.jpg
+"GET /api/contact/your-background.jpg HTTP/1.1" 404 7013
+"GET /api/contact/ HTTP/1.1" 200 8435
+"GET /api/contact/ HTTP/1.1" 200 8435
+Not Found: /api/contact/your-logo.png
+"GET /api/contact/your-logo.png HTTP/1.1" 404 6995
+Not Found: /api/contact/your-background.jpg
+"GET /api/contact/your-background.jpg HTTP/1.1" 404 7013
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /api/contact/ HTTP/1.1" 200 8435
+"POST /api/contact/ HTTP/1.1" 200 7037
+Not Found: /api/contact/your-logo.png
+"GET /api/contact/your-logo.png HTTP/1.1" 404 6995
+Not Found: /api/contact/your-background.jpg
+"GET /api/contact/your-background.jpg HTTP/1.1" 404 7013
+"GET /api/contact/ HTTP/1.1" 200 8435
+Not Found: /api/admin
+"GET /api/admin HTTP/1.1" 404 6947
+Not Found: /api/admin
+"GET /api/admin HTTP/1.1" 404 6947
+"GET /admin/ HTTP/1.1" 200 14265
+"GET /static/grappelli/stylesheets/screen.css HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/ui/jquery-ui.min.css HTTP/1.1" 304 0
+"GET /static/grappelli/stylesheets/mueller/grid/output.css HTTP/1.1" 304 0
+"GET /static/grappelli/js/grappelli.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/jquery-migrate-3.0.1.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/ui/jquery-ui.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/images/spritesheet-1694777276.png HTTP/1.1" 304 0
+"GET /admin/ HTTP/1.1" 200 14265
+Not Found: /api/hello02/
+"GET /api/hello02/ HTTP/1.1" 404 6956
+Not Found: /api/hello02/
+"GET /api/hello02/ HTTP/1.1" 404 6956
+"GET /api/hello/ HTTP/1.1" 200 5206
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+"GET /api/hello/ HTTP/1.1" 200 28
+"GET /api/hello/ HTTP/1.1" 200 5206
+"GET /api/hello/ HTTP/1.1" 200 28
+"GET /admin/ HTTP/1.1" 200 14265
+"GET /admin/ HTTP/1.1" 200 14265
+"GET / HTTP/1.1" 200 12873
+"GET /api/contact/ HTTP/1.1" 200 8435
+Not Found: /api/contact/your-logo.png
+"GET /api/contact/your-logo.png HTTP/1.1" 404 6995
+Not Found: /api/contact/your-background.jpg
+"GET /api/contact/your-background.jpg HTTP/1.1" 404 7013
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /api/contact/ HTTP/1.1" 200 8435
+"POST /api/contact/ HTTP/1.1" 200 7037
+Not Found: /api/contact/your-logo.png
+"GET /api/contact/your-logo.png HTTP/1.1" 404 6995
+Not Found: /api/contact/your-background.jpg
+"GET /api/contact/your-background.jpg HTTP/1.1" 404 7013
+"GET /api/contact/ HTTP/1.1" 200 8435
