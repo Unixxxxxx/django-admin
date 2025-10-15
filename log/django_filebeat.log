@@ -8374,3 +8374,83 @@ Not Found: /api/contact/your-logo.png
 Not Found: /api/contact/your-background.jpg
 "GET /api/contact/your-background.jpg HTTP/1.1" 404 7013
 "GET /api/contact/ HTTP/1.1" 200 8435
+Watching for file changes with StatReloader
+"GET /api/home/ HTTP/1.1" 200 10327
+Not Found: /api/home/your-logo.png
+"GET /api/home/your-logo.png HTTP/1.1" 404 6986
+Not Found: /api/home/your-background.jpg
+"GET /api/home/your-background.jpg HTTP/1.1" 404 7004
+"GET /api/home/ HTTP/1.1" 200 10327
+"GET /api/home/? HTTP/1.1" 200 10327
+Not Found: /api/home/your-logo.png
+"GET /api/home/your-logo.png HTTP/1.1" 404 6986
+Not Found: /api/home/your-background.jpg
+"GET /api/home/your-background.jpg HTTP/1.1" 404 7004
+"GET /api/home/? HTTP/1.1" 200 10327
+"GET /api HTTP/1.1" 301 0
+"GET /api/ HTTP/1.1" 200 12873
+Not Found: /api/your-logo.png
+"GET /api/your-logo.png HTTP/1.1" 404 6971
+Not Found: /api/your-background.jpg
+"GET /api/your-background.jpg HTTP/1.1" 404 6989
+"GET /api/ HTTP/1.1" 200 12873
+"GET / HTTP/1.1" 200 12873
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 5051
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 5069
+"GET / HTTP/1.1" 200 12873
+"GET /api/home/ HTTP/1.1" 200 10327
+Not Found: /api/home/your-logo.png
+"GET /api/home/your-logo.png HTTP/1.1" 404 6986
+Not Found: /api/home/your-background.jpg
+"GET /api/home/your-background.jpg HTTP/1.1" 404 7004
+"GET /api/home/ HTTP/1.1" 200 10327
+"GET /api/hello/ HTTP/1.1" 200 5206
+"GET /api/hello/ HTTP/1.1" 200 28
+"OPTIONS /api/hello/ HTTP/1.1" 200 5513
+"OPTIONS /api/hello/ HTTP/1.1" 200 5513
+"GET /api/hello/ HTTP/1.1" 200 5206
+"GET /api/hello/ HTTP/1.1" 200 28
+"GET /api/hello/?format=api HTTP/1.1" 200 5250
+"GET /api/hello/?format=api HTTP/1.1" 200 5250
+"OPTIONS /api/hello/?format=api HTTP/1.1" 200 5557
+"OPTIONS /api/hello/?format=api HTTP/1.1" 200 5557
+"GET /swagger/ HTTP/1.1" 200 2447
+"GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145206
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046583
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
+"GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+"GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480
+"GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+"GET /swagger/ HTTP/1.1" 200 2447
+"GET /swagger/?format=openapi HTTP/1.1" 200 853
+"GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+"GET /api/contact/ HTTP/1.1" 200 8435
+Not Found: /api/contact/your-logo.png
+"GET /api/contact/your-logo.png HTTP/1.1" 404 6995
+Not Found: /api/contact/your-background.jpg
+"GET /api/contact/your-background.jpg HTTP/1.1" 404 7013
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /api/contact/ HTTP/1.1" 200 8435
+"POST /api/contact/ HTTP/1.1" 200 7039
+Not Found: /api/contact/your-logo.png
+"GET /api/contact/your-logo.png HTTP/1.1" 404 6995
+Not Found: /api/contact/your-background.jpg
+"GET /api/contact/your-background.jpg HTTP/1.1" 404 7013
+"GET /api/contact/ HTTP/1.1" 200 8435
+"GET /swagger/?format=openapi HTTP/1.1" 200 853
+Not Found: /accounts/logout/
+"GET /accounts/logout/?next=/swagger/ HTTP/1.1" 404 5075
+Not Found: /accounts/logout/
+"GET /accounts/logout/?next=/swagger/ HTTP/1.1" 404 5075
+Not Found: /accounts/logout/
+"GET /accounts/logout/?next=/swagger/ HTTP/1.1" 404 5075
+Not Found: /accounts/logout/
+"GET /accounts/logout/?next=/swagger/ HTTP/1.1" 404 5075
+"GET /swagger/ HTTP/1.1" 200 2447
+"GET /swagger/ HTTP/1.1" 200 2447
+"GET /api/hello/ HTTP/1.1" 200 28
+"GET /swagger/?format=openapi HTTP/1.1" 200 853
+"GET /swagger/?format=openapi HTTP/1.1" 200 853
