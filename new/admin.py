@@ -15,5 +15,8 @@ class ContactAdmin(admin.ModelAdmin):
 class NewAdmin(admin.ModelAdmin):
     list_display = ('name', 'message')  
     search_fields = ('name',)  
-
+@admin.register(alpha)
+class AlphaAdmin(admin.ModelAdmin):
+    list_display = ('name', 'email')
+    search_fields = ('name',)
 
