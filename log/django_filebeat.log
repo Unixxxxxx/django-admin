@@ -8476,3 +8476,4 @@ Not Found: /api/contact/your-logo.png
 Not Found: /api/contact/your-background.jpg
 "GET /api/contact/your-background.jpg HTTP/1.1" 404 7013
 "GET /api/contact/ HTTP/1.1" 200 8435
+Watching for file changes with StatReloader
