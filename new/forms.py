@@ -1,5 +1,5 @@
 from django import forms
-from .models import Contact,new
+from .models import Contact,new, alpha 
 
 class ContactForm(forms.ModelForm):
     class Meta:
@@ -10,3 +10,8 @@ class NewForm(forms.ModelForm):
     class Meta:
         model = new
         fields =[ 'name', 'message']
+
+class Newalpha(form.ModelForm):
+    class Meta:
+        model = alpha
+        fields = ['name', 'email']

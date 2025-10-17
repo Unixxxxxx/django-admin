@@ -8553,3 +8553,4 @@ Watching for file changes with StatReloader
 "GET /admin/new/alpha/ HTTP/1.1" 200 14098
 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
 "GET /admin/new/alpha/ HTTP/1.1" 200 13699
+Watching for file changes with StatReloader

@@ -1,5 +1,5 @@
 from django.shortcuts import render 
-from .forms import ContactForm, NewForm 
+from .forms import ContactForm, NewForm , AlpahForm
 from .models import Contact, new
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
@@ -50,3 +50,13 @@ def new_form_view(request):
 def success_view(request):
     return render(request, 'new/success.html')
 
+
+def alpha_form(request):
+    if request.method == 'POST':
+        form =NewForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('alpsuccess')
+        else:
+            form = NewForm()
+            return render=(request, 'alpha.html')
