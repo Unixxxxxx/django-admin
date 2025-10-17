@@ -1,5 +1,5 @@
 from django.shortcuts import render 
-from .forms import ContactForm, NewForm , AlpahForm
+from .forms import ContactForm, NewForm , AlphaForm
 from .models import Contact, new
 from rest_framework.decorators import api_view
 from rest_framework.response import Response

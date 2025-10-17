@@ -11,7 +11,7 @@ class NewForm(forms.ModelForm):
         model = new
         fields =[ 'name', 'message']
 
-class Newalpha(form.ModelForm):
+class Newalpha(forms.ModelForm):
     class Meta:
         model = alpha
         fields = ['name', 'email']
