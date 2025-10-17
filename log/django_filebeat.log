@@ -8570,3 +8570,44 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 /home/alpha/new/app/new/views.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12873
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 5051
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 5069
+"GET / HTTP/1.1" 200 12873
+"GET /admin/new/alpha/ HTTP/1.1" 200 13699
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/new/alpha/ HTTP/1.1" 200 13699
+"GET /admin/ HTTP/1.1" 200 14959
+"GET /admin/ HTTP/1.1" 200 14959
+"GET /admin/new/alpha/ HTTP/1.1" 200 13699
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/new/alpha/ HTTP/1.1" 200 13699
+"GET /admin/new/alpha/add/ HTTP/1.1" 200 15494
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/new/alpha/add/ HTTP/1.1" 200 15494
+"POST /admin/new/alpha/add/ HTTP/1.1" 302 0
+"GET /admin/new/alpha/ HTTP/1.1" 200 14479
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/new/alpha/ HTTP/1.1" 200 14079
+"GET /admin/new/alpha/add/ HTTP/1.1" 200 15494
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/new/alpha/add/ HTTP/1.1" 200 15494
+"POST /admin/new/alpha/add/ HTTP/1.1" 302 0
+"GET /admin/new/alpha/ HTTP/1.1" 200 14860
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/new/alpha/ HTTP/1.1" 200 14460
+"GET /admin/ HTTP/1.1" 200 14992
+"GET /admin/ HTTP/1.1" 200 14992
+"GET /admin/new/new/ HTTP/1.1" 200 11775
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/new/new/ HTTP/1.1" 200 11775
+"GET /admin/new/new/add/ HTTP/1.1" 200 15498
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/new/new/add/ HTTP/1.1" 200 15498
+"POST /admin/new/new/add/ HTTP/1.1" 302 0
+"GET /admin/new/new/ HTTP/1.1" 200 14090
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/new/new/ HTTP/1.1" 200 13695
