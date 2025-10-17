@@ -8513,3 +8513,5 @@ Not Found: /favicon.ico
 "GET /admin/new/contact/ HTTP/1.1" 200 17741
 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
 "GET /admin/new/contact/ HTTP/1.1" 200 17395
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
