@@ -8477,3 +8477,39 @@ Not Found: /api/contact/your-background.jpg
 "GET /api/contact/your-background.jpg HTTP/1.1" 404 7013
 "GET /api/contact/ HTTP/1.1" 200 8435
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12873
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 5051
+"GET /admin/ HTTP/1.1" 200 14265
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5045
+"GET /admin/ HTTP/1.1" 200 14265
+"GET /admin/new/contact/ HTTP/1.1" 200 18389
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/grappelli/images/backgrounds/changelist-results.png HTTP/1.1" 304 0
+"GET /static/grappelli/images/icons/form-select.png HTTP/1.1" 304 0
+"GET /admin/new/contact/ HTTP/1.1" 200 18389
+"GET /admin/ HTTP/1.1" 200 14265
+"GET /admin/ HTTP/1.1" 200 14265
+"GET /admin/new/contact/ HTTP/1.1" 200 18389
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/new/contact/ HTTP/1.1" 200 18389
+"POST /admin/new/contact/ HTTP/1.1" 302 0
+"GET /admin/new/contact/ HTTP/1.1" 200 18722
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/new/contact/ HTTP/1.1" 200 18389
+"POST /admin/new/contact/ HTTP/1.1" 200 9011
+"GET /admin/new/contact/ HTTP/1.1" 200 18389
+"POST /admin/new/contact/ HTTP/1.1" 302 0
+"GET /admin/new/contact/ HTTP/1.1" 200 17741
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/new/contact/ HTTP/1.1" 200 17395
