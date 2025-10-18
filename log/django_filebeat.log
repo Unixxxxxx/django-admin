@@ -8637,3 +8637,30 @@ Watching for file changes with StatReloader
 "GET /admin/new/new/ HTTP/1.1" 200 12116
 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
 "GET /admin/new/new/ HTTP/1.1" 200 11775
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12873
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 5298
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 5316
+Not Found: /smtp
+"GET /smtp HTTP/1.1" 404 5271
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5292
+Not Found: /smtp
+"GET /smtp HTTP/1.1" 404 5271
+Not Found: /smtp/index
+"GET /smtp/index HTTP/1.1" 404 5289
+Not Found: /smtp/index
+"GET /smtp/index HTTP/1.1" 404 5289
+Not Found: /smtp/
+"GET /smtp/ HTTP/1.1" 404 5274
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5292
