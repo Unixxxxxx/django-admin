@@ -8728,3 +8728,4 @@ Not Found: /home/
 "GET / HTTP/1.1" 200 23
 "GET / HTTP/1.1" 200 23
 "GET / HTTP/1.1" 200 23
+Watching for file changes with StatReloader
