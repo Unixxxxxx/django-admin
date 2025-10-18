@@ -38,7 +38,7 @@ schema_view = get_schema_view(
 urlpatterns = [
     path("grappelli/", include("grappelli.urls")),
     path('admin/', admin.site.urls),
-    path('',include('new.urls')),
+    path('smtp/', include('smtp.urls')),
     path('', include('smtp.urls')),
     path('api/', include('new.urls')),  # Your app URLs
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),

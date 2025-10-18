@@ -8664,3 +8664,11 @@ Not Found: /smtp/
 "GET /smtp/ HTTP/1.1" 404 5274
 Not Found: /favicon.ico
 "GET /favicon.ico HTTP/1.1" 404 5292
+Watching for file changes with StatReloader
+Not Found: /smtp/index
+"GET /smtp/index HTTP/1.1" 404 3528
+Not Found: /smtp/index
+"GET /smtp/index HTTP/1.1" 404 3528
+"GET /smtp HTTP/1.1" 301 0
+"GET /smtp/ HTTP/1.1" 200 23
+"GET /smtp/ HTTP/1.1" 200 23
