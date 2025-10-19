@@ -8729,3 +8729,126 @@ Not Found: /home/
 "GET / HTTP/1.1" 200 23
 "GET / HTTP/1.1" 200 23
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alpha/new/app/smtp/views.py", line 5, in index
+    return render(request, 'smtp/index.html', {})
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: smtp/index.html
+"GET / HTTP/1.1" 500 78151
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alpha/new/app/smtp/views.py", line 5, in index
+    return render(request, 'smtp/index.html', {})
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: smtp/index.html
+"GET / HTTP/1.1" 500 77399
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alpha/new/app/smtp/views.py", line 5, in index
+    return render(request, 'smtp/index.html', {})
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: smtp/index.html
+"GET / HTTP/1.1" 500 78151
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alpha/new/app/smtp/views.py", line 5, in index
+    return render(request, 'smtp/index.html', {})
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: smtp/index.html
+"GET / HTTP/1.1" 500 77399
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2971
+Not Found: /
+"GET / HTTP/1.1" 404 2971
+Not Found: /
+"GET / HTTP/1.1" 404 2971
+Not Found: /
+"GET / HTTP/1.1" 404 2971
+Not Found: /
+"GET / HTTP/1.1" 404 2971
+Not Found: /
+"GET / HTTP/1.1" 404 2971
+Not Found: /
+"GET / HTTP/1.1" 404 2971
+Not Found: /
+"GET / HTTP/1.1" 404 2971
+Not Found: /
+"GET / HTTP/1.1" 404 2971
+Not Found: /
+"GET / HTTP/1.1" 404 2971
+Not Found: /
+"GET / HTTP/1.1" 404 2971
+Not Found: /
+"GET / HTTP/1.1" 404 2971
+Not Found: /home/
+"GET /home/ HTTP/1.1" 404 3004
+Not Found: /home/
+"GET /home/ HTTP/1.1" 404 3004
+"GET /admin/ HTTP/1.1" 200 14956
+"GET /admin/ HTTP/1.1" 200 14956
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2971
+Not Found: /
+"GET / HTTP/1.1" 404 2971
+/home/alpha/new/app/app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12873
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 5051
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 5069
+"GET / HTTP/1.1" 200 12873
+"GET / HTTP/1.1" 200 12873
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 5051
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 5069
+"GET / HTTP/1.1" 200 12873
+"GET / HTTP/1.1" 200 12881
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 5051
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 5069
+"GET / HTTP/1.1" 200 12881
