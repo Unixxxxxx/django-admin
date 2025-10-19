@@ -8852,3 +8852,48 @@ Not Found: /your-logo.png
 Not Found: /your-background.jpg
 "GET /your-background.jpg HTTP/1.1" 404 5069
 "GET / HTTP/1.1" 200 12881
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12881
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 5051
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 5069
+"GET / HTTP/1.1" 200 12881
+"GET /api/menu/ HTTP/1.1" 200 2313
+"GET /api/menu/ HTTP/1.1" 200 2313
+/home/alpha/new/app/app/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/alpha/new/app/em/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/alpha/new/app/em/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12881
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 5314
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 5332
+Internal Server Error: /test-email/
+Traceback (most recent call last):
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alpha/new/app/em/views.py", line 5, in test_email
+    send_mail(
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/mail/__init__.py", line 92, in send_mail
+    return mail.send()
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/mail/message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/alpha/new/test/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 95, in open
+    self.connection.login(self.username, self.password)
+  File "/usr/lib/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/usr/lib/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/usr/lib/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-b6a76674fb4sm3940098a12.13 - gsmtp')
+"GET /test-email/ HTTP/1.1" 500 98036

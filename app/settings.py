@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'new',
     'app',
+    'em',
 ]
 
 MIDDLEWARE = [
@@ -59,6 +60,17 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+# SMTP Email Configuration
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'          # or your mail server (e.g., smtp.office365.com)
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'your_email@gmail.com'     # your email
+EMAIL_HOST_PASSWORD = 'your_app_password'    # app password (NOT your Gmail login password)
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
 
 ROOT_URLCONF = 'app.urls'
 
