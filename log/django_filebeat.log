@@ -8897,3 +8897,76 @@ Traceback (most recent call last):
     raise SMTPAuthenticationError(code, resp)
 smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-b6a76674fb4sm3940098a12.13 - gsmtp')
 "GET /test-email/ HTTP/1.1" 500 98036
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12881
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 5314
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 5332
+"GET / HTTP/1.1" 200 12881
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5419
+"GET /api/home/ HTTP/1.1" 200 10327
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5419
+Not Found: /api/home/your-logo.png
+"GET /api/home/your-logo.png HTTP/1.1" 404 7249
+Not Found: /api/home/your-background.jpg
+"GET /api/home/your-background.jpg HTTP/1.1" 404 7267
+"GET /api/home/ HTTP/1.1" 200 10327
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5419
+"GET / HTTP/1.1" 200 12881
+"GET /api/menu/ HTTP/1.1" 200 2313
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5419
+"GET /api/menu/ HTTP/1.1" 200 2313
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5419
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5419
+"GET /api/about/ HTTP/1.1" 200 9283
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5419
+Not Found: /api/about/your-logo.png
+"GET /api/about/your-logo.png HTTP/1.1" 404 7252
+Not Found: /api/about/your-background.jpg
+"GET /api/about/your-background.jpg HTTP/1.1" 404 7270
+"GET /api/about/ HTTP/1.1" 200 9283
+"GET /api/contact/ HTTP/1.1" 200 8435
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5419
+Not Found: /api/contact/your-logo.png
+"GET /api/contact/your-logo.png HTTP/1.1" 404 7258
+Not Found: /api/contact/your-background.jpg
+"GET /api/contact/your-background.jpg HTTP/1.1" 404 7276
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /api/contact/ HTTP/1.1" 200 8435
+"GET /api/contact/ HTTP/1.1" 200 8435
+Not Found: /api/contact/your-logo.png
+"GET /api/contact/your-logo.png HTTP/1.1" 404 7258
+Not Found: /api/contact/your-background.jpg
+"GET /api/contact/your-background.jpg HTTP/1.1" 404 7276
+"GET /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png HTTP/1.1" 404 2068
+"GET /api/home/ HTTP/1.1" 200 10327
+Not Found: /api/home/your-logo.png
+"GET /api/home/your-logo.png HTTP/1.1" 404 7249
+Not Found: /api/home/your-background.jpg
+"GET /api/home/your-background.jpg HTTP/1.1" 404 7267
+"GET /api/home/ HTTP/1.1" 200 10327
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12881
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 5314
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 5332
+"GET / HTTP/1.1" 200 12881
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5308
+"GET / HTTP/1.1" 200 12881
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 5314
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 5332
+"GET / HTTP/1.1" 200 12881
