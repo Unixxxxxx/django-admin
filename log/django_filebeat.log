@@ -8970,3 +8970,12 @@ Not Found: /your-logo.png
 Not Found: /your-background.jpg
 "GET /your-background.jpg HTTP/1.1" 404 5332
 "GET / HTTP/1.1" 200 12881
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12881
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 5314
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 5332
+"GET / HTTP/1.1" 200 12881
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5308
