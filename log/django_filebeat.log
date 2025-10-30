@@ -9103,3 +9103,17 @@ Not Found: /your-background.jpg
 "GET /api/hello/?format=json HTTP/1.1" 200 28
 "GET /api/hello/?format=json HTTP/1.1" 200 28
 "OPTIONS /api/hello/?format=api HTTP/1.1" 200 5557
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12879
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 5314
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 5332
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5308
+"GET / HTTP/1.1" 200 12879
+"GET / HTTP/1.1" 200 12879
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 5314
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 5332
