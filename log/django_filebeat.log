@@ -9218,3 +9218,37 @@ Watching for file changes with StatReloader
 "GET /api/hello/ HTTP/1.1" 200 27
 "GET /api/hello/?format=api HTTP/1.1" 200 5249
 "GET /api/hello/?format=api HTTP/1.1" 200 5249
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12879
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 5314
+Not Found: /your-logo.png
+"GET /your-logo.png HTTP/1.1" 404 5314
+Not Found: /your-background.jpg
+"GET /your-background.jpg HTTP/1.1" 404 5332
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 6071
+"GET /static/grappelli/jquery/jquery-migrate-3.0.1.min.js HTTP/1.1" 200 11421
+"GET /static/grappelli/jquery/jquery.min.js HTTP/1.1" 200 89501
+"GET /static/grappelli/stylesheets/mueller/grid/output.css HTTP/1.1" 200 36537
+"GET /static/grappelli/js/grappelli.min.js HTTP/1.1" 200 27906
+"GET /static/grappelli/jquery/ui/jquery-ui.min.js HTTP/1.1" 200 255084
+"GET /static/grappelli/stylesheets/screen.css HTTP/1.1" 200 128920
+"GET /static/grappelli/jquery/ui/jquery-ui.min.css HTTP/1.1" 200 29614
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 14956
+"GET /static/grappelli/stylesheets/screen.css HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/ui/jquery-ui.min.css HTTP/1.1" 304 0
+"GET /static/grappelli/js/grappelli.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/ui/jquery-ui.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/jquery-migrate-3.0.1.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/stylesheets/mueller/grid/output.css HTTP/1.1" 304 0
+"GET /static/grappelli/images/spritesheet-1694777276.png HTTP/1.1" 200 25228
+Not Found: /your-logo.png
+Not Found: /your-background.jpg
+Not Found: /api/contact/your-background.jpg
+Not Found: /api/contact/your-logo.png
+Not Found: /static/images/5ee58a32-3642-48c1-a0a8-cea96c55c7ac.png
+Watching for file changes with StatReloader
